@@ -17,7 +17,7 @@ const Footer = () => {
                         <div className='flex'>
                             <img src={`/profilePhoto.jpeg`} className='rounded-full size-24 sm:h-32 sm:w-32 object-cover' />
                             <div className='ml-4 md:ml-8 my-auto'>
-                                <p className='text-4xl font-semibold opacity-100'>Pucukads</p>
+                                <p className='text-4xl font-semibold opacity-100'>Mas Ulil</p>
                                 <p className='text-xl text-gray-300 font-medium'>Jasa Setting dan Optimasi Google ADS</p>
                             </div>
                         </div>
@@ -35,12 +35,12 @@ const Footer = () => {
                         </a> */}
                         <div className='flex flex-wrap lg:justify-between'>
                             <div className='w-50 mr-10 mt-5'>
-                                <div className='mb-1 uppercase text-gray-400 font-semibold'>Email me:</div>
-                                <ArrowLink link='mailto:contact@jacoblind.me' anchorText='contact@jacoblind.me' color='text-white' size='md' />
+                                <div className='mb-1 uppercase text-gray-400 font-semibold'>Email:</div>
+                                <ArrowLink link='mailto:ndikru@gmail.com' anchorText='ndikru@gmail.com' color='text-white' size='md' />
                             </div>
                             <div className='mt-5'>
-                                <div className='mb-1 uppercase text-gray-400 font-semibold'>Call me:</div>
-                                <ArrowLink link='tel:004521221945' anchorText='+45 2122 1945' color='text-white' size='md' />
+                                <div className='mb-1 uppercase text-gray-400 font-semibold'>Whatsapp:</div>
+                                <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='+62 8953-7384-7616' color='text-white' size='md' />
                             </div>
                         </div>
                     </div>
