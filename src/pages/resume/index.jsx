@@ -27,7 +27,7 @@ export default function index() {
                             Available for work
                         </div>
                     </div>
-                    <h1>Jacob Lind</h1>
+                    <h1>Mas Ulil</h1>
                     <p className='subheading -mt-6'>{resumeData.tagline}</p>
                     <CtaButtons />
                 </div>

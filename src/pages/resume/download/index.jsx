@@ -26,7 +26,7 @@ export default function index() {
                                 <Container className={`w-[180px] bg-[url('/profilePhoto.jpeg')] bg-cover bg-[center_-10px]`} />
                                 <Container className=''>
                                     <IconBox size='sm' IconComponent={GoRocket} />
-                                    <h1>Jacob Lind</h1>
+                                    <h1>Mas Ulil</h1>
                                     <p className='!text-xs'>{resumeData.tagline}</p>
                                     <Location locationText={resumeData.location} size='sm' className={'mb-0'} />
                                 </Container>

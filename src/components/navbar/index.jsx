@@ -26,7 +26,7 @@ const Navbar = () => {
                     <div className='py-4 md:py-8 flex items-center justify-between w-full relative'>
                         <a href='/' className='flex items-center space-x-3 hover:scale-110 transition-all duration-300'>
                             <img src={logo} className='h-4' alt='logo' />
-                            <span className='text-2xl font-semibold'>Jacob Lind</span>
+                            <span className='text-2xl font-semibold'>Mas Ulil</span>
                         </a>
                         <button
                             type='button'
