@@ -26,18 +26,5 @@ export default function SocialBar() {
         }
     ]
 
-    return (
-        <div className='flex mt-6 group gap-6'>
-            {socials.map((social, index) => (
-                <a href={social.href}
-                    target='_blank'
-                    className={`cursor-pointer transition-all duration-300 ${hoveredIndex === null ? '' : hoveredIndex !== index ? 'opacity-50' : 'scale-[1.15] -translate-y-2'}`}
-                    key={index}
-                    onMouseEnter={() => setHoveredIndex(index)}
-                    onMouseLeave={() => setHoveredIndex(null)}>
-                    <social.IconComponent size='36px' />
-                </a>
-            ))}
-        </div>
-    )
+
 }
