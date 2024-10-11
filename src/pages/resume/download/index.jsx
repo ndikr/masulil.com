@@ -42,35 +42,7 @@ export default function index() {
                             <Education />
                             <Referrals />
                         </div>
-                        <div className='flex flex-col h-[1083px]'>
-                            <Container>
-                                <Header IconComponent={IoHeadsetOutline} title='Contact' />
-                                <div className='flex flex-col gap-2 *:gap-2 *:flex *:items-center'>
-                                    <a href='tel:+4521221945'>
-                                        <FaPhoneAlt size='0.8rem' className='text-[#8e8e92]' />
-                                        <p className='underline underline-offset-2'>+45 21221945</p>
-                                    </a>
-                                    <a href='mailto:contact@jacoblind.me'>
-                                        <FaEnvelope size='0.8rem' className='text-[#8e8e92]' />
-                                        <p className='underline underline-offset-2'>contact@jacoblind.me</p>
-                                    </a>
-                                    <a href='https://jacoblind.me' target='_blank'>
-                                        <FaGlobe size='0.8rem' className='text-[#8e8e92]' />
-                                        <p className='underline underline-offset-2'>jacoblind.me</p>
-                                    </a>
-                                    <a href='https://www.linkedin.com/in/jacoblindseo/' target='_blank'>
-                                        <FaLinkedin size='0.8rem' className='text-[#8e8e92]' />
-                                        <p className='underline underline-offset-2'>linkedin.com/in/jacoblindseo</p>
-                                    </a>
-                                    <a href='https://github.com/lindjacob' target='_blank'>
-                                        <FaGithub size='0.8rem' className='text-[#8e8e92]' />
-                                        <p className='underline underline-offset-2'>github.com/lindjacob</p>
-                                    </a>
-                                </div>
-                            </Container>
-                            <Skills />
-                            <Languages />
-                        </div>
+                        
                     </div>
                 </div>
             </div>
