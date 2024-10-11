@@ -23,7 +23,7 @@ function AboutMe() {
                     <SectionTitle title='Tentang Saya' />
                     <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
                     <p>
-                    Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia jasa SEO dan Google Ads asal kota Kudus dan telah berhasil membantu ratusan UMKM.
+                    Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia Jasa SEO, Google Ads, Pembuatan Web asal kota Kudus dan telah berhasil membantu ratusan UMKM.
 Pengalaman saya membuat saya memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
 Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
