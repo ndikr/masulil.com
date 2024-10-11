@@ -18,8 +18,8 @@ const Footer = () => {
                             <img src={`/profilePhoto.jpeg`} className='rounded-full size-24 sm:h-32 sm:w-32 object-cover' />
                             <div className='ml-4 md:ml-8 my-auto'>
                                 <p className='text-4xl font-semibold opacity-100'>Mas Ulil</p>
-                                <p className='text-xl text-gray-300 font-medium'>Jasa Setting dan Optimasi Google Ads</p></br>
-                                <div className='mb-1 uppercase text-gray-400 font-semibold'>Ds. Trengguli RT03 RW08 Kec. Wonosalam Kab. Demak. Jawa Tengah Kode Pos 59571</div>
+                                <p className='text-xl text-gray-300 font-medium'>Jasa Setting dan Optimasi Google Ads</p>
+                                
                             </div>
                         </div>
                         <SocialBar />
@@ -43,6 +43,7 @@ const Footer = () => {
                                 <div className='mb-1 uppercase text-gray-400 font-semibold'>Whatsapp:</div>
                                 <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='+62 8953-7384-7616' color='text-white' size='md' />
                             </div>
+                            <div className='mb-1 uppercase text-gray-400 font-semibold'>Ds. Trengguli RT03 RW08 Kec. Wonosalam Kab. Demak. Jawa Tengah Kode Pos 59571</div>
                         </div>
                     </div>
                 </div>
