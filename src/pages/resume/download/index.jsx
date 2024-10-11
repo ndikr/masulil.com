@@ -23,7 +23,7 @@ export default function index() {
                     <div className='grid grid-cols-3'>
                         <div className='col-span-2 flex flex-col h-[1083px]'>
                             <div className='flex'>
-                                <Container className={`w-[180px] bg-[url('/profilePhoto.webp')] bg-cover bg-[center_-10px]`} />
+                                <Container className={`w-[180px] bg-[url('/profilePhoto.jpg')] bg-cover bg-[center_-10px]`} />
                                 <Container className=''>
                                     <IconBox size='sm' IconComponent={GoRocket} />
                                     <h1>Jacob Lind</h1>
