@@ -25,9 +25,6 @@ const Footer = () => {
                         <SocialBar />
                     </div>
                     <div ref={ref2} className={transitionClasses2}>
-                        <div href='/contact' className='flex items-center mb-1 md:mt-14 mt-16 text-white my-auto lg:mt-0'>
-                            <div className='text-4xl mt-2 font-semibold md:text-5xl md:leading-[3.5rem] text-white lg:mt-0'>Get in touch</div>
-                        </div>
                         {/* <a href='/contact' className='flex items-center mb-1 md:mt-14 mt-16 text-white my-auto group hover:cursor-pointer lg:mt-0'>
                             <div className='text-4xl mt-2 font-semibold md:text-5xl md:leading-[3.5rem] text-white lg:mt-0'>Get in touch</div>
                             <svg className='size-10 ml-4 mt-2 md:size-12 lg:mt-0 text-blue-primary group-hover:translate-x-2 transition-transform duration-300' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 14 10'>
@@ -43,7 +40,6 @@ const Footer = () => {
                                 <div className='mb-1 uppercase text-gray-400 font-semibold'>Whatsapp:</div>
                                 <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='+62 8953-7384-7616' color='text-white' size='md' />
                             </div>
-                            <div className='mb-1 uppercase text-gray-400 font-semibold'>Ds. Trengguli RT03 RW08 Kec. Wonosalam Kab. Demak. Jawa Tengah Kode Pos 59571</div>
                         </div>
                     </div>
                 </div>
