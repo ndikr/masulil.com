@@ -18,7 +18,8 @@ const Footer = () => {
                             <img src={`/profilePhoto.jpeg`} className='rounded-full size-24 sm:h-32 sm:w-32 object-cover' />
                             <div className='ml-4 md:ml-8 my-auto'>
                                 <p className='text-4xl font-semibold opacity-100'>Mas Ulil</p>
-                                <p className='text-xl text-gray-300 font-medium'>Jasa Setting dan Optimasi Google ADS</p>
+                                <p className='text-xl text-gray-300 font-medium'>Jasa Setting dan Optimasi Google Ads</p>
+                                <div className='mb-1 uppercase text-gray-400 font-semibold'>Ds. Trengguli RT03 RW08 Kec. Wonosalam Kab. Demak. Kode Pos 59571</div>
                             </div>
                         </div>
                         <SocialBar />
