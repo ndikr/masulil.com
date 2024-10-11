@@ -17,8 +17,8 @@ const Footer = () => {
                         <div className='flex'>
                             <img src={`/profilePhoto.webp`} className='rounded-full size-24 sm:h-32 sm:w-32 object-cover' />
                             <div className='ml-4 md:ml-8 my-auto'>
-                                <p className='text-4xl font-semibold opacity-100'>Jacob Lind</p>
-                                <p className='text-xl text-gray-300 font-medium'>Full Stack Developer</p>
+                                <p className='text-4xl font-semibold opacity-100'>Pucukads</p>
+                                <p className='text-xl text-gray-300 font-medium'>Jasa Setting dan Optimasi Google ADS</p>
                             </div>
                         </div>
                         <SocialBar />
