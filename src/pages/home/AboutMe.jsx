@@ -27,7 +27,7 @@ function AboutMe() {
                         My experiences make me uniquely qualified for digital product innovation and development as well as project management.
                         My aim is always to create solutions that not only meet but exceed expectations.
                     </p>
-                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='Whatsapp' size='xl' className='mt-8' />
+                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='Wa 0895373847616' size='xl' className='mt-8' />
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
