@@ -13,7 +13,16 @@ const Footer = () => {
         <div className={`border-t-[1px] border-gray-500`}>
             <Container>
                 <div className='lg:h-96 h-[32rem] flex flex-col justify-center lg:flex-row lg:justify-between lg:items-center'>
-
+                    <div className={`flex flex-col ${transitionClasses1}`} ref={ref1}>
+                        <div className='flex'>
+                            <img src={`/profilePhoto.jpeg`} className='rounded-full size-24 sm:h-32 sm:w-32 object-cover' />
+                            <div className='ml-4 md:ml-8 my-auto'>
+                                <p className='text-4xl font-semibold opacity-100'>Mas Ulil</p>
+                                <p className='text-xl text-gray-300 font-medium'>Jasa Setting dan Optimasi Google Ads</p>
+                                
+                            </div>
+                        </div>
+                        <SocialBar />
                     </div>
                     <div ref={ref2} className={transitionClasses2}>
                         {/* <a href='/contact' className='flex items-center mb-1 md:mt-14 mt-16 text-white my-auto group hover:cursor-pointer lg:mt-0'>
