@@ -23,7 +23,9 @@ function AboutMe() {
                     <SectionTitle title='Tentang Saya' />
                     <h2>Expertise in Digital Product Innovation</h2>
                     <p>
-                    Saya memulai tertarik pada digital marketing sejak tahun 2017 dan mendirikan perusahan pertama yang sukses dengan karyawan pada tahun 2019
+                    Saya memulai tertarik pada digital marketing sejak tahun 2016 dan pada 2019 saya bekerja sama dengan layanan digital marketing asal kota Kudus dan telah berhasil membantu ratusan UMKM.
+Pengalaman saya membuat saya memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital.
+Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
                     
                     <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
