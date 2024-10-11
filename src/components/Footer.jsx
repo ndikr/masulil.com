@@ -18,7 +18,7 @@ const Footer = () => {
                             <img src={`/profilePhoto.jpeg`} className='rounded-full size-24 sm:h-32 sm:w-32 object-cover' />
                             <div className='ml-4 md:ml-8 my-auto'>
                                 <p className='text-4xl font-semibold opacity-100'>Mas Ulil</p>
-                                <p className='text-xl text-gray-300 font-medium'>Ds. Trengguli RT01 RW07 Kec. Wonosalam Kab. Demak. Jawa Tengah Kode Pos 59571</p>
+                                <p className='text-xl text-gray-400 font-medium'>Ds. Trengguli RT01 RW07 Kec. Wonosalam Kab. Demak. Jawa Tengah Kode Pos 59571</p>
                                 
                             </div>
                         </div>
