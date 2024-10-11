@@ -21,10 +21,10 @@ function AboutMe() {
             <div className='flex flex-col gap-12 lg:flex-row items-center'>
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
                     <SectionTitle title='Tentang Saya' />
-                    <h2>Berpengalaman dalam Pemasaran Digital</h2>
+                    <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
                     <p>
-                    Saya memulai tertarik pada digital marketing sejak tahun 2016 dan pada 2019 saya bekerja sama dengan layanan digital marketing asal kota Kudus dan telah berhasil membantu ratusan UMKM.
-Pengalaman saya membuat saya memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital.
+                    Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia jasa SEO dan Google Ads asal kota Kudus dan telah berhasil membantu ratusan UMKM.
+Pengalaman saya membuat saya memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
 Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
                     
