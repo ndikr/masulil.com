@@ -20,15 +20,13 @@ function AboutMe() {
         <Section id='about-me' className={`relative z-20`}>
             <div className='flex flex-col gap-12 lg:flex-row items-center'>
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
-                    <SectionTitle title='About Me' />
+                    <SectionTitle title='Tentang Saya' />
                     <h2>Expertise in Digital Product Innovation</h2>
                     <p>
-                        I started coding at the age of 14 and founded my first succesful company with employees at the age of 26.
-                        My experiences make me uniquely qualified for digital product innovation and development as well as project management.
-                        My aim is always to create solutions that not only meet but exceed expectations.
+                    Saya memulai tertarik pada digital marketing sejak tahun 2017 dan mendirikan perusahan pertama yang sukses dengan karyawan pada tahun 2019
                     </p>
                     
-                    <i class="fa fa-whatsapp"></i><ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
+                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
