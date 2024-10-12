@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { PiDownloadSimple, PiEnvelopeSimple, PiCheck } from "react-icons/pi";
 import fetchPDF from '../../../api/cvtopdf';
-import ArrowLink from '../../components/ui/ArrowLink';
 
 export default function CtaButtons() {
     const [isDownloading, setIsDownloading] = useState(false);
