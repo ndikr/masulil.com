@@ -44,7 +44,6 @@ export default function CtaButtons() {
                 <PiEnvelopeSimple size='1.5rem' />
                 Email
             </a>
-            <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
             <button
                 onClick={handleDownload}
                 className={`button secondary flex items-center ${isDownloading ? 'bg-gray-500 cursor-not-allowed' : downloadSuccess ? 'bg-green-500' : 'bg-indigo-500'}`}
@@ -62,6 +61,10 @@ export default function CtaButtons() {
                 )}
                 {isDownloading ? 'Generating PDF...' : downloadSuccess ? 'Download Successful' : 'Download Resume'}
             </button>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a></link>
         </div>
     );
 }
