@@ -39,9 +39,14 @@ export default function CtaButtons() {
 
     return (
         <div className='flex flex-col w-full justify-center gap-4 mt-10 xsm:flex-row'>
-            <a href='mailto:contact@jacoblind.me' className='button'>
+            <a href='mailto:ndikru@gmail.com' className='button'>
                 <PiEnvelopeSimple size='1.5rem' />
-                Send Email
+                Email
+            </a>
+            <div className='flex flex-col w-full justify-center gap-4 mt-10 xsm:flex-row bg-green-500'>
+            <a href='https://api.whatsapp.com/send?phone=62895373847616' className='button'>
+                <PiEnvelopeSimple size='1.5rem' />
+                Whatsapp
             </a>
             <button
                 onClick={handleDownload}
@@ -60,6 +65,7 @@ export default function CtaButtons() {
                 )}
                 {isDownloading ? 'Generating PDF...' : downloadSuccess ? 'Download Successful' : 'Download Resume'}
             </button>
+        </div>
         </div>
     );
 }
