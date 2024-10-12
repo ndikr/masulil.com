@@ -40,9 +40,9 @@ export default function CtaButtons() {
 
     return (
         <div className='flex flex-col w-full justify-center gap-4 mt-10 xsm:flex-row'>
-            <a href='mailto:ndikru@gmail.com' className='button'>
+            <a href='https://api.whatsapp.com/send?phone=62895373847616' className='button'>
                 <PiEnvelopeSimple size='1.5rem' />
-                Email
+                Whatsapp
             </a>
             <button
                 onClick={handleDownload}
