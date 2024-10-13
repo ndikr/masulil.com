@@ -18,45 +18,40 @@ function AboutMe() {
     });
 
     return (
-<Page>
-        <div id='about-me' className={`relative z-20`}>
-            <div className='flex flex-col gap-12 lg:flex-row items-center'>
-                <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
-                    <SectionTitle title='Tentang Mas Ulil' />
-                    <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
-                    <p>
-                    Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia Jasa SEO, Google Ads, Pembuatan Web asal kota Kudus dan telah berhasil membantu ratusan UMKM.
-Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
-Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
-                    </p>
-                    
-                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
-                </div>
-                <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
-                    <div>
-                        <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-64 h-64 xsm:w-80 xsm:h-80 sm:h-96 sm:w-96'>
-                            <RiJavascriptFill className='absolute                   -top-1                       size-12    xsm:-top-[6px]                      xsm:size-16     sm:-top-2                           sm:size-20' />
-                            <FaReact className='absolute                            top-7 right-9               size-10     xsm:top-9 xsm:right-10              xsm:size-14     sm:top-10 sm:right-14               sm:size-16 ' />
-                            <SiNextdotjs className='absolute                        top-7 left-9                size-10     xsm:top-9 xsm:left-10               xsm:size-14     sm:top-10 sm:left-14                sm:size-16' />
-                            <SiTailwindcss className='absolute                      top-16                      size-12     xsm:top-[5rem]                      xsm:size-14     sm:top-24                           sm:size-16' />
-                            <TbSql className='absolute                              top-[5.2rem] right-12       size-12     xsm:top-[6.5rem] xsm:right-16       xsm:size-16     sm:top-[7.4rem] sm:right-[4.4rem]   sm:size-20' />
-                            <BiLogoTypescript className='absolute                   top-[5.5rem] left-12        size-10     xsm:top-[6.8rem] xsm:left-16        xsm:size-14     sm:top-[7.9rem]                     sm:size-16' />
-                            <FaPython className='absolute                           right-0                     size-8                                          xsm:size-10                                         sm:size-12' />
-                            <FaGitAlt className='absolute                           left-0                      size-8                                          xsm:size-10                                         sm:size-12' />
-                            <FaHtml5 className='absolute                            bottom-20 left-20           size-8      xsm:bottom-24 xsm:left-24           xsm:size-10     sm:bottom-28 sm:left-28             sm:size-12' />
-                            <FaCss3Alt className='absolute                          bottom-20 right-20          size-8      xsm:bottom-24 xsm:right-24          xsm:size-10     sm:bottom-28 sm:right-28            sm:size-12' />
-                            <BiLogoGraphql className='absolute                      bottom-16 right-4           size-8      xsm:bottom-20 xsm:right-6           xsm:size-10                                         sm:size-12' />
-                            <HiCommandLine className='absolute                      bottom-16 left-4            size-8      xsm:bottom-20 xsm:left-6            xsm:size-10                                         sm:size-12' />
-                            <FaDocker className='absolute                           bottom-12                   size-6      xsm:bottom-14                       xsm:size-8      sm:bottom-16                        sm:size-10' />
-                            <SiGooglecloud className='absolute                      bottom-4 right-2/3          size-6      xsm:bottom-6                        xsm:size-8                                          sm:size-10' />
-                            <SiDjango className='absolute                           bottom-4 left-2/3           size-6      xsm:bottom-6                        xsm:size-8                                          sm:size-10' />
-                            <FaJava className='absolute                             bottom-0                    size-6                                          xsm:size-8                                          sm:size-10' />
+        <Page>
+            <div className={`mx-6 md:max-w-[758px] md:mx-auto py-24`}>
+                <div className={`text-center ${transitionClasses1}`} ref={ref1}>
+                    <div className='flex justify-center mb-10'>
+                        <div className='px-3 py-2 border-2 border-black-tertiary rounded-lg flex items-center gap-2'>
+                            <div className='bg-green-500 size-2 rounded-full animate-ping' />
+                            Available for work
                         </div>
-                        <p className='mt-4 text-center'>Some tools I am familiar with</p>
                     </div>
+                    <h1>Mas Ulil</h1>
+                    <p className='subheading -mt-6'>{resumeData.tagline}</p>
+                    <CtaButtons />
+                </div>
+                <div id='resume' className='mt-24 flex flex-col gap-4'>
+                    <div className='flex flex-col md:flex-row gap-4'>
+                        <Container className={`w-full min-h-[350px] md:min-h-0 md:w-1/3 bg-[url('/profilePhoto.jpeg')] bg-cover bg-center`} />
+                        <Profile data={resumeData} />
+                    </div>
+                    <WorkedWith />
+                    <WorkExperience data={resumeData} />
+                    <Education />
+                    {/* <Certifications /> */}
+                    <Skills />
+                    <Languages />
+                    {/* <Awards /> */}
+                    {/* <Recommendations /> */}
+                </div>
+                <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
+                    <img src={`/profilePhoto.jpeg`} className='size-20 object-cover rounded-xl mb-4' />
+                    <h3>Feel Free to Reach Out</h3>
+                    <p>Let's start a productive converstaion</p>
+                    <CtaButtons />
                 </div>
             </div>
-        </div>
         </Page>
     )
 }
