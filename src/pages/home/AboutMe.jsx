@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from '../../components/layout/Section';
+import CtaButtons from './components/CtaButtons';
 import SectionTitle from '../../components/ui/SectionTitle';
 import ArrowLink from '../../components/ui/ArrowLink';
 import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
@@ -22,6 +23,7 @@ function AboutMe() {
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
                     <SectionTitle title='Tentang Mas Ulil' />
                     <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
+                    <CtaButtons />
                     <p>
                     Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia Jasa SEO, Google Ads, Pembuatan Web asal kota Kudus dan telah berhasil membantu ratusan UMKM.
 Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
