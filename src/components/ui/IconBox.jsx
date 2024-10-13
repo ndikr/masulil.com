@@ -22,7 +22,7 @@ import {
   SiGoogleads,
   SiNuxtdotjs,
   SiNetlify,
-  SiVisualstudio,
+  SiVisualstudio
 } from "react-icons/si";
 import { GrStatusUnknown } from "react-icons/gr";
 
