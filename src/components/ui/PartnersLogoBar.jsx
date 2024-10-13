@@ -1,5 +1,5 @@
-import Dekra from '../../assets/logo_google_googleads.svg';
-import Dtails from '../../assets/facebook-ads-logo.png';
+import Dekra from '../../assets/dekra-logo.png';
+import Dtails from '../../assets/dtails-logo.svg';
 import Connexio from '../../assets/connexio-logo.svg';
 import KompetenceKanalen from '../../assets/kompetence-kanalen-logo.svg';
 import useInViewTransition from '../../hooks/useInViewTransition';
