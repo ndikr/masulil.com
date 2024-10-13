@@ -6,7 +6,7 @@ import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
 import { HiCommandLine } from 'react-icons/hi2';
 import { TbSql } from 'react-icons/tb';
 import { RiJavascriptFill } from 'react-icons/ri';
-import { FaGitAlt, FaReact, FaPython, FaDocker, FaJava, FaHtml5, FaCss3Alt, RiJavascriptFill } from 'react-icons/fa';
+import { FaGitAlt, FaReact, FaPython, FaDocker, FaJava, FaHtml5, FaCss3Alt, FaFacebook } from 'react-icons/fa';
 import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs, SiGoogleads } from 'react-icons/si';
 import useInViewTransition from '../../hooks/useInViewTransition';
 
