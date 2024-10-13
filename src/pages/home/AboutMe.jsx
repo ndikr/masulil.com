@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from '../../components/layout/Section';
-import CtaButtons from '../../components/CtaButtons';
+import CtaButtons from './components/CtaButtons';
 import SectionTitle from '../../components/ui/SectionTitle';
 import ArrowLink from '../../components/ui/ArrowLink';
 import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
