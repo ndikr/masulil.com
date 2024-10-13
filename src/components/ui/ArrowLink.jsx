@@ -12,7 +12,7 @@ export default function ArrowLink({ link, anchorText, blankLinkTarget, size, par
         sm: 'size-5 mt-0.5',
         md: 'size-6 mt-0.5',
         lg: 'size-6 mt-0.5',
-        xl: 'size-8 text-blue-primary'
+        xl: 'size-8 text-green-500'
     }[size] || 'w-6 h-6'
 
     const height = {
