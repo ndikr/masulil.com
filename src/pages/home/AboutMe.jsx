@@ -1,7 +1,7 @@
 import React from 'react';
+import CtaButtons from './components/CtaButtons';
 import Section from '../../components/layout/Section';
 import SectionTitle from '../../components/ui/SectionTitle';
-import CtaButtons from './components/CtaButtons';
 import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
 import { HiCommandLine } from 'react-icons/hi2';
 import { TbSql } from 'react-icons/tb';
