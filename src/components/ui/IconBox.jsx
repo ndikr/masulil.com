@@ -9,6 +9,7 @@ import {
   FaCss3Alt,
   FaVuejs,
   FaFacebook,
+  FaWordpress,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
