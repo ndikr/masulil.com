@@ -27,8 +27,6 @@ function AboutMe() {
 Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
 Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
-                    <h3>Feel Free to Reach Out</h3>
-                    <p>Let's start a productive converstaion</p>
                     
                     <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>

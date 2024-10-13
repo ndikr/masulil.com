@@ -40,6 +40,7 @@ const Footer = () => {
                 </div>
             </Container>
         </div>
+        
     )
 }
 
