@@ -1,6 +1,5 @@
 import React from 'react';
 import Section from '../../components/layout/Section';
-import CtaButtons from 'src/pages/resume/components/CtaButtons';
 import SectionTitle from '../../components/ui/SectionTitle';
 import ArrowLink from '../../components/ui/ArrowLink';
 import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
@@ -30,7 +29,7 @@ Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi ju
                     </p>
                     <h3>Feel Free to Reach Out</h3>
                     <p>Let's start a productive converstaion</p>
-                    <CtaButtons />
+                    
                     <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
