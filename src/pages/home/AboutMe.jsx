@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from '../../components/layout/Section';
-import CtaButtons from './components/CtaButtons';
+import CtaButtons from '../../components/CtaButtons';
 import SectionTitle from '../../components/ui/SectionTitle';
 import ArrowLink from '../../components/ui/ArrowLink';
 import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
@@ -16,43 +16,44 @@ function AboutMe() {
     const { ref: ref2, transitionClasses: transitionClasses2 } = useInViewTransition({
         delay: 'delay-300'
     });
-
     return (
         <Page>
-        <div className={`mx-6 md:max-w-[758px] md:mx-auto py-24`}>
-            <div className={`text-center ${transitionClasses1}`} ref={ref1}>
-                <div className='flex justify-center mb-10'>
-                    <div className='px-3 py-2 border-2 border-black-tertiary rounded-lg flex items-center gap-2'>
-                        <div className='bg-green-500 size-2 rounded-full animate-ping' />
-                        Available for work
+            <div className={`mx-6 md:max-w-[758px] md:mx-auto py-24`}>
+                <div className={`text-center ${transitionClasses1}`} ref={ref1}>
+                    <div className='flex justify-center mb-10'>
+                        <div className='px-3 py-2 border-2 border-black-tertiary rounded-lg flex items-center gap-2'>
+                            <div className='bg-green-500 size-2 rounded-full animate-ping' />
+                            Available for work
+                        </div>
                     </div>
+                    <h1>Mas Ulil</h1>
+                    <p className='subheading -mt-6'>{resumeData.tagline}</p>
+                    <CtaButtons />
                 </div>
-                <h1>Mas Ulil</h1>
-                <p className='subheading -mt-6'>{resumeData.tagline}</p>
-                <CtaButtons />
-            </div>
-            <div id='resume' className='mt-24 flex flex-col gap-4'>
-                <div className='flex flex-col md:flex-row gap-4'>
-                    <Container className={`w-full min-h-[350px] md:min-h-0 md:w-1/3 bg-[url('/profilePhoto.jpeg')] bg-cover bg-center`} />
-                    <Profile data={resumeData} />
+                <div id='resume' className='mt-24 flex flex-col gap-4'>
+                    <div className='flex flex-col md:flex-row gap-4'>
+                        <Container className={`w-full min-h-[350px] md:min-h-0 md:w-1/3 bg-[url('/profilePhoto.jpeg')] bg-cover bg-center`} />
+                        <Profile data={resumeData} />
+                    </div>
+                    <WorkedWith />
+                    <WorkExperience data={resumeData} />
+                    <Education />
+                    {/* <Certifications /> */}
+                    <Skills />
+                    <Languages />
+                    {/* <Awards /> */}
+                    {/* <Recommendations /> */}
                 </div>
-                <WorkedWith />
-                <WorkExperience data={resumeData} />
-                <Education />
-                {/* <Certifications /> */}
-                <Skills />
-                <Languages />
-                {/* <Awards /> */}
-                {/* <Recommendations /> */}
+                <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
+                    <img src={`/profilePhoto.jpeg`} className='size-20 object-cover rounded-xl mb-4' />
+                    <h3>Feel Free to Reach Out</h3>
+                    <p>Let's start a productive converstaion</p>
+                    <CtaButtons />
+                </div>
             </div>
-            <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
-                <img src={`/profilePhoto.jpeg`} className='size-20 object-cover rounded-xl mb-4' />
-                <h3>Feel Free to Reach Out</h3>
-                <p>Let's start a productive converstaion</p>
-                <CtaButtons />
-            </div>
-        </div>
-    </Page>
+        </Page>
+    )
+    return (
         <Section id='about-me' className={`relative z-20`}>
             <div className='flex flex-col gap-12 lg:flex-row items-center'>
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
