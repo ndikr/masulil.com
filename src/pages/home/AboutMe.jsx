@@ -27,13 +27,16 @@ function AboutMe() {
 Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
 Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
-                    
-                    <div className='flex flex-col w-full justify-center gap-4 mt-10 xsm:flex-row'>
+                    return (
+        <div className='flex flex-col w-full justify-center gap-4 mt-10 xsm:flex-row'>
             <a href='https://api.whatsapp.com/send?phone=62895373847616' className='button'>
                 <PiEnvelopeSimple size='1.5rem' />
                 Whatsapp
             </a>
-            </div>
+
+        </div>
+    );
+                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
