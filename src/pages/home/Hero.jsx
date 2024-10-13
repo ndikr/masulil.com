@@ -30,7 +30,7 @@ const Hero = () => {
             <div className='flex flex-col md:flex-row mb-44 2xsm:mb-52' >
                 <div className='w-full text-center flex flex-col'>
                     <h1 className={`${transitionClasses1} mb-4 sm:mb-2`} ref={ref1}>Setting dan Optimasi Google Ads</h1>
-                    <p className={`subheading text-xl max-w-[520px] md:text-2xl md:max-w-[620px] lg:text-3xl lg:max-w-[800px] self-center ${transitionClasses2}`} ref={ref2}>Dapatkan Settingan Terbaik untuk Web Bisnis Anda Bisa Tampil di Halaman #1 Google Hanya Rp.100K/Minggu</p>
+                    <p className={`subheading text-xl max-w-[520px] md:text-2xl md:max-w-[620px] lg:text-3xl lg:max-w-[800px] self-center ${transitionClasses2}`} ref={ref2}>Dapatkan Settingan Terbaik untuk Web Bisnis Anda Bisa Tampil di Halaman #1 Google Hanya Rp100.000 /Minggu</p>
                 </div>
             </div>
             <img src={`/profilePhoto.jpeg`} className={`absolute -bottom-5 rounded-xl w-40 left-[calc(50%-5rem)] 2xsm:w-44 2xsm:left-[calc(50%-5.5rem)] md:w-52 md:left-[calc(50%-6.5rem)] lg:w-60 lg:left-[calc(50%-7.5rem)] ${transitionClasses3}`} ref={ref3} />
