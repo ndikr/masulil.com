@@ -11,6 +11,7 @@ import {
   FaFacebook,
   FaWordpress,
   FaCloudflare,
+  FaGithub,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -20,6 +21,7 @@ import {
   SiSolidity,
   SiGoogleads,
   SiNuxtdotjs,
+  SiNetlify,
 } from "react-icons/si";
 import { GrStatusUnknown } from "react-icons/gr";
 
