@@ -18,6 +18,7 @@ function AboutMe() {
     });
 
     return (
+        <Page>
         <Section id='about-me' className={`relative z-20`}>
             <div className='flex flex-col gap-12 lg:flex-row items-center'>
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
@@ -57,6 +58,7 @@ Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi ju
                 </div>
             </div>
         </Section>
+        </Page>
     )
 }
 
