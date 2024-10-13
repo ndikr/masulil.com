@@ -1,6 +1,8 @@
 import Section from '../../components/layout/Section';
+import CtaButtons from './components/CtaButtons';
 import useInViewTransition from '../../hooks/useInViewTransition';
 import ScrollButton from '../../components/ui/ScrollButton';
+
 
 const Hero = () => {
     const { ref: ref1, transitionClasses: transitionClasses1 } = useInViewTransition();
@@ -35,6 +37,7 @@ const Hero = () => {
             <img src={`/profilePhoto.jpeg`} className={`absolute -bottom-5 rounded-xl w-40 left-[calc(50%-5rem)] 2xsm:w-44 2xsm:left-[calc(50%-5.5rem)] md:w-52 md:left-[calc(50%-6.5rem)] lg:w-60 lg:left-[calc(50%-7.5rem)] ${transitionClasses3}`} ref={ref3} />
             <div className={`absolute z-30 -bottom-8 left-[calc(50%-2rem)] lg:-bottom-10 lg:left-[calc(50%-2.25rem)] ${transitionClasses4}`} ref={ref4}>
                 <ScrollButton href='#about-me' />
+                <CtaButtons />
             </div>
         </Section>
     )
