@@ -1,7 +1,7 @@
 import React from 'react';
-import CtaButtons from './components/CtaButtons';
 import Section from '../../components/layout/Section';
 import SectionTitle from '../../components/ui/SectionTitle';
+import ArrowLink from '../../components/ui/ArrowLink';
 import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
 import { HiCommandLine } from 'react-icons/hi2';
 import { TbSql } from 'react-icons/tb';
@@ -28,7 +28,7 @@ Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovas
 Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
                     
-                    <CtaButtons />
+                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
