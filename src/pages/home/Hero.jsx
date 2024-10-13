@@ -20,6 +20,12 @@ const Hero = () => {
 
     return (
         <Section className={`relative`}>
+                                <div className='flex justify-center mb-10'>
+                        <div className='px-3 py-2 border-2 border-black-tertiary rounded-lg flex items-center gap-2'>
+                            <div className='bg-green-500 size-2 rounded-full animate-ping' />
+                            Available for work
+                        </div>
+                    </div>
             <div className='flex flex-col md:flex-row mb-44 2xsm:mb-52' >
                 <div className='w-full text-center flex flex-col'>
                     <h1 className={`${transitionClasses1} mb-4 sm:mb-2`} ref={ref1}>Setting dan Optimasi Google Ads</h1>
