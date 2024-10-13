@@ -2,14 +2,14 @@ import { BiLogoTypescript, BiLogoGraphql } from "react-icons/bi";
 import { TbSql } from "react-icons/tb";
 import { RiJavascriptFill } from "react-icons/ri";
 import {
+  FaReact,
   FaPython,
   FaDocker,
   FaJava,
   FaCss3Alt,
   FaVuejs,
   FaFacebook,
-  FaWordpress,
-  FaServer,
+  FaWordpress
 } from "react-icons/fa";
 import {
   SiTailwindcss,
