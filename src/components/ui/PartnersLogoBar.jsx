@@ -1,4 +1,4 @@
-import Dekra from '../../assets/dekra-logo.png';
+import Dekra from '../../assets/gads.png';
 import Dtails from '../../assets/dtails-logo.svg';
 import Connexio from '../../assets/connexio-logo.svg';
 import KompetenceKanalen from '../../assets/kompetence-kanalen-logo.svg';
