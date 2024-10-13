@@ -8,6 +8,7 @@ import {
   FaJava,
   FaCss3Alt,
   FaVuejs,
+  FaFacebook,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
