@@ -2,7 +2,6 @@ import { BiLogoTypescript, BiLogoGraphql } from "react-icons/bi";
 import { TbSql } from "react-icons/tb";
 import { RiJavascriptFill } from "react-icons/ri";
 import {
-  FaReact,
   FaPython,
   FaDocker,
   FaJava,
@@ -10,6 +9,7 @@ import {
   FaVuejs,
   FaFacebook,
   FaWordpress,
+  FaServer,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
