@@ -15,6 +15,7 @@ import {
   SiGooglecloud,
   SiNextdotjs,
   SiSolidity,
+  SiGoogleads,
   SiNuxtdotjs,
 } from "react-icons/si";
 import { GrStatusUnknown } from "react-icons/gr";
