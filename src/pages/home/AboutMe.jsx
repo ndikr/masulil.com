@@ -7,7 +7,7 @@ import { HiCommandLine } from 'react-icons/hi2';
 import { TbSql } from 'react-icons/tb';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { FaGitAlt, FaReact, FaPython, FaDocker, FaJava, FaHtml5, FaFacebook, FaCss3Alt } from 'react-icons/fa';
-import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs } from 'react-icons/si';
+import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs, SiGoogleads } from 'react-icons/si';
 import useInViewTransition from '../../hooks/useInViewTransition';
 
 function AboutMe() {
@@ -33,10 +33,10 @@ Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi ju
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
                         <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-64 h-64 xsm:w-80 xsm:h-80 sm:h-96 sm:w-96'>
-                            <RiJavascriptFill className='absolute                   -top-1                       size-12    xsm:-top-[6px]                      xsm:size-16     sm:-top-2                           sm:size-20' />
+                            <SiGoogleads className='absolute                   -top-1                       size-12    xsm:-top-[6px]                      xsm:size-16     sm:-top-2                           sm:size-20' />
                             <FaReact className='absolute                            top-7 right-9               size-10     xsm:top-9 xsm:right-10              xsm:size-14     sm:top-10 sm:right-14               sm:size-16 ' />
                             <FaFacebook className='absolute                        top-7 left-9                size-10     xsm:top-9 xsm:left-10               xsm:size-14     sm:top-10 sm:left-14                sm:size-16' />
-                            <SiTailwindcss className='absolute                      top-16                      size-12     xsm:top-[5rem]                      xsm:size-14     sm:top-24                           sm:size-16' />
+                            <RiJavascriptFill className='absolute                      top-16                      size-12     xsm:top-[5rem]                      xsm:size-14     sm:top-24                           sm:size-16' />
                             <TbSql className='absolute                              top-[5.2rem] right-12       size-12     xsm:top-[6.5rem] xsm:right-16       xsm:size-16     sm:top-[7.4rem] sm:right-[4.4rem]   sm:size-20' />
                             <BiLogoTypescript className='absolute                   top-[5.5rem] left-12        size-10     xsm:top-[6.8rem] xsm:left-16        xsm:size-14     sm:top-[7.9rem]                     sm:size-16' />
                             <FaPython className='absolute                           right-0                     size-8                                          xsm:size-10                                         sm:size-12' />
