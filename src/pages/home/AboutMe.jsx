@@ -7,7 +7,7 @@ import { HiCommandLine } from 'react-icons/hi2';
 import { TbSql } from 'react-icons/tb';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { FaGitAlt, FaReact, FaPython, FaDocker, FaJava, FaHtml5, FaCss3Alt } from 'react-icons/fa';
-import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs } from 'react-icons/si';
+import { SiTailwindcss, SiDjango, SiGooglecloud, SiGoogleads } from 'react-icons/si';
 import useInViewTransition from '../../hooks/useInViewTransition';
 
 function AboutMe() {
