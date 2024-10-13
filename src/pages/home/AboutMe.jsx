@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from '../../components/layout/Section';
+import CtaButtons from './components/CtaButtons';
 import SectionTitle from '../../components/ui/SectionTitle';
 import ArrowLink from '../../components/ui/ArrowLink';
 import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
@@ -9,7 +10,6 @@ import { RiJavascriptFill } from 'react-icons/ri';
 import { FaGitAlt, FaReact, FaPython, FaDocker, FaJava, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs } from 'react-icons/si';
 import useInViewTransition from '../../hooks/useInViewTransition';
-import CtaButtons from './components/CtaButtons';
 
 function AboutMe() {
     const { ref: ref1, transitionClasses: transitionClasses1 } = useInViewTransition();
@@ -18,7 +18,6 @@ function AboutMe() {
     });
 
     return (
-        <Page>
         <Section id='about-me' className={`relative z-20`}>
             <div className='flex flex-col gap-12 lg:flex-row items-center'>
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
@@ -29,9 +28,8 @@ function AboutMe() {
 Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
 Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
-                    
-                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
                     <CtaButtons />
+                   
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
@@ -58,7 +56,6 @@ Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi ju
                 </div>
             </div>
         </Section>
-        </Page>
     )
 }
 
