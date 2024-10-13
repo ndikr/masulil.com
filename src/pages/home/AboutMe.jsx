@@ -1,5 +1,4 @@
 import React from 'react';
-import CtaButtons from './components/CtaButtons';
 import Section from '../../components/layout/Section';
 import SectionTitle from '../../components/ui/SectionTitle';
 import ArrowLink from '../../components/ui/ArrowLink';
