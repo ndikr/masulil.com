@@ -1,6 +1,6 @@
 import { BiLogoTypescript, BiLogoGraphql } from "react-icons/bi";
 import { TbSql } from "react-icons/tb";
-import { MdiGoogleads } from "react-icons/ri";
+import { SiGoogleads } from "react-icons/ri";
 import {
   FaReact,
   FaPython,
@@ -26,7 +26,7 @@ export default function IconBox({ icon }) {
     typescript: BiLogoTypescript,
     graphql: BiLogoGraphql,
     sql: TbSql,
-    javascript: MdiGoogleads,
+    javascript: SiGoogleads,
     python: FaPython,
     docker: FaDocker,
     java: FaJava,
