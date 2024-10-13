@@ -28,7 +28,7 @@ Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovas
 Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
                     <br></br>
-                    <p> Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu
+                    <p> <b>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</b>
                     </p>
                     
                     <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
@@ -53,7 +53,7 @@ Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi ju
                             <SiVisualstudio className='absolute                           bottom-4 left-2/3           size-6      xsm:bottom-6                        xsm:size-8                                          sm:size-10' />
                             <SiNetlify className='absolute                             bottom-0                    size-6                                          xsm:size-8                                          sm:size-10' />
                         </div>
-                        <p className='mt-4 text-center'>Some tools I am familiar with</p>
+                        <p className='mt-4 text-center'>Beberapa tools yang saya kuasai</p>
                     </div>
                 </div>
             </div>
