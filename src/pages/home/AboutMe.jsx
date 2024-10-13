@@ -7,7 +7,7 @@ import { HiCommandLine } from 'react-icons/hi2';
 import { TbSql } from 'react-icons/tb';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { FaGitAlt, FaReact, FaPython, FaDocker, FaJava, FaHtml5, FaFacebook, FaCss3Alt, FaWordpress, FaServer, FaCloudflare, FaGithub } from 'react-icons/fa';
-import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs, SiGoogleads, SiNetlify } from 'react-icons/si';
+import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs, SiGoogleads, SiNetlify, SiVisualstudio } from 'react-icons/si';
 import useInViewTransition from '../../hooks/useInViewTransition';
 
 function AboutMe() {
@@ -47,7 +47,7 @@ Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi ju
                             <HiCommandLine className='absolute                      bottom-16 left-4            size-8      xsm:bottom-20 xsm:left-6            xsm:size-10                                         sm:size-12' />
                             <FaGithub className='absolute                           bottom-12                   size-6      xsm:bottom-14                       xsm:size-8      sm:bottom-16                        sm:size-10' />
                             <SiGooglecloud className='absolute                      bottom-4 right-2/3          size-6      xsm:bottom-6                        xsm:size-8                                          sm:size-10' />
-                            <SiDjango className='absolute                           bottom-4 left-2/3           size-6      xsm:bottom-6                        xsm:size-8                                          sm:size-10' />
+                            <SiVisualstudio className='absolute                           bottom-4 left-2/3           size-6      xsm:bottom-6                        xsm:size-8                                          sm:size-10' />
                             <SiNetlify className='absolute                             bottom-0                    size-6                                          xsm:size-8                                          sm:size-10' />
                         </div>
                         <p className='mt-4 text-center'>Some tools I am familiar with</p>
