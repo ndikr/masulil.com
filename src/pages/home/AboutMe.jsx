@@ -28,7 +28,7 @@ Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovas
 Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
                     <br></br>
-                    <p> <b>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</b>
+                    <p><h4>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</h4>
                     </p>
                     
                     <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='WA +62 8953-7384-7616' size='xl' className='mt-8' />
