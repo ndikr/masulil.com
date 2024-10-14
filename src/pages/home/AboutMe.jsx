@@ -37,11 +37,6 @@ function AboutMe() {
                     <br></br>
                     <p><h4>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</h4>
                     </p>
-                    <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
-                    <h3>Mulai Ujicoba Gratis</h3>
-                    <p>Dapatkan Settingan dan Otimasi Google Ads Gratis Selama 1 Minggu</p>
-                    <ArrowLink1 />
-                </div>
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
@@ -50,6 +45,11 @@ function AboutMe() {
                         </div>
                         <p className='mt-4 text-center'>Preview tampilan iklan Google Ads</p>
                     </div>
+                </div>
+                <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
+                    <h3>Mulai Ujicoba Gratis</h3>
+                    <p>Dapatkan Settingan dan Otimasi Google Ads Gratis Selama 1 Minggu</p>
+                    <ArrowLink1 />
                 </div>
             </div>
         </Section>
