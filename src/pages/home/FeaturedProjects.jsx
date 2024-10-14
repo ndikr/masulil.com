@@ -19,12 +19,12 @@ export default function FeaturedProjects() {
                 <div className='flex flex-col lg:w-2/3'>
                     <SectionTitle title='My Portfolio' />
                     <h2>
-                        Take a look at the latest side projects I've done
+                        Jenis produk dan layanan yang tersedia
                     </h2>
                 </div>
                 <div className='flex lg:w-1/3 lg:flex-row-reverse'>
                     <div className='mt-5 w-fit self-end lg:mb-8'>
-                        <ArrowLink link='/portfolio' anchorText='Browse all Projects' size='xl' weight='semibold' />
+                        <ArrowLink link='/portfolio' anchorText='Browse all Services' size='xl' weight='semibold' />
                     </div>
                 </div>
             </div>

@@ -29,7 +29,7 @@ function AboutMe() {
                     <br></br>
                     <p>
                     <h4>Akses Dasboard Google Ads</h4>
-                    Anda akan mendapankan akses langsung ke Dasboard Googole Ads untuk memantau performa kampanye secara realtime.
+                    Anda akan mendapatkan akses langsung ke Dasboard Googole Ads untuk memantau performa kampanye secara realtime.
                     </p>
                     <br></br>
                     <p>
