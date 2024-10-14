@@ -9,6 +9,7 @@ import { RiJavascriptFill } from 'react-icons/ri';
 import { FaGitAlt, FaReact, FaPython, FaDocker, FaJava, FaHtml5, FaFacebook, FaCss3Alt, FaWordpress, FaServer, FaCloudflare, FaGithub } from 'react-icons/fa';
 import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs, SiGoogleads, SiNetlify, SiVisualstudio } from 'react-icons/si';
 import useInViewTransition from '../../hooks/useInViewTransition';
+import Laptop from '../../assets/laptop-clouds-copy-1.png';
 
 function AboutMe() {
     const { ref: ref1, transitionClasses: transitionClasses1 } = useInViewTransition();
@@ -44,7 +45,7 @@ function AboutMe() {
                     
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
-                <img src="../../assets/laptop-clouds-copy-1.png" alt="Snow" style="width:100%">
+                <img src="laptop-clouds-copy-1.png" alt="Snow" style="width:100%">
                 </div>
             </div>
         </Section>
