@@ -46,8 +46,8 @@ export default function index() {
                 </div>
                 <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
                     <img src={`/profilePhoto.jpeg`} className='size-20 object-cover rounded-xl mb-4' />
-                    <h3>Feel Free to Reach Out</h3>
-                    <p>Let's start a productive converstaion</p>
+                    <h3>Mulai Ujicoba Gratis</h3>
+                    <p>Dapatkan Settingan dan Otimasi Google Ads Gratis Selama 1 Minggu Pertama</p>
                     <CtaButtons />
                 </div>
             </div>
