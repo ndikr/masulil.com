@@ -21,10 +21,10 @@ function AboutMe() {
             <div className='flex flex-col gap-12 lg:flex-row items-center'>
             <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
                     <SectionTitle title='Tentang Mas Ulil' />
-                    <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
+                    <h2>Nikmati berbagai keuntungan beriklan di Google Adwords bersama Mas Ulil</h2>
                     <p>
-                    Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia Jasa SEO, Google Ads, Pembuatan Web asal kota Kudus dan telah berhasil membantu ratusan UMKM.
-                    </p>
+                    <h4>Gratis Konsultasi</h4>
+                    </p> Mas Ulil memberikan konsultasi gratis bagi anda untuk memperoleh settingan terbaik untuk iklan Google Ads anda.
                     <br></br>
                     <p>
                     Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
@@ -39,7 +39,7 @@ function AboutMe() {
                     
                     <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>
-                
+
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
                     <SectionTitle title='Tentang Mas Ulil' />
                     <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
