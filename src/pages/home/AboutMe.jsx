@@ -19,31 +19,6 @@ function AboutMe() {
     return (
         <Section id='about-me' className={`relative z-20`}>
             <div className='flex flex-col gap-12 lg:flex-row items-center'>
-            <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
-                    <h2>Keuntungan beriklan di Google Ads bersama Mas Ulil</h2>
-                    <p>
-                    <h4>Gratis Konsultasi</h4>
-                    Mas Ulil memberikan konsultasi gratis bagi anda untuk memperoleh settingan terbaik untuk iklan Google Ads anda.
-                    </p> 
-                    <br></br>
-                    <p>
-                    <h4>Akses Dasboard Google Ads</h4>
-                    Anda akan mendapankan akses langsung ke Dasboard Googole Ads untuk memantau performa kampanye secara realtime.
-                    </p>
-                    <br></br>
-                    <p>
-                    <h4>Riset Kata Kunci dan Kompetitor</h4>
-                    Kami menggunakan berbagai strategi untuk mendapatkan buying keyword tertarget hingga menggiring brand kompetitor untuk dijadikan target khusus.
-                    </p>
-                    <br></br>
-                    <p>
-                    <h4>Advanced Bidding Strategy</h4>
-                    Biaya “pembelian data” iklan lebih terjangkau dengan tahapan strategi bidding yang tepat.
-                    </p>
-                    <br></br>
-                    
-                </div>
-
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
                     <SectionTitle title='Tentang Mas Ulil' />
                     <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
