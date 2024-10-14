@@ -26,12 +26,13 @@ export default function Skills() {
                     <Skill title={'Facebook Ads'} />
                     <Skill title={'Ahrefs'} />
                     <Skill title={'Linux VPS'} />
+                    <Skill title={'Cloud Hosting'} />
                     <Skill title={'Cloudflare'} />
+                    <Skill title={'Web Server'} />
                 </SkillGroup>
 
                 <SkillGroup title={'Others'}>
                     <Skill title={'Git'} />
-                    <Skill title={'Google Cloud Platform'} />
                     <Skill title={'Project Management'} />
                     <Skill title={'Entrepeneurship'} />
                     <Skill title={'Business Development'} />
