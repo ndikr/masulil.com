@@ -43,6 +43,10 @@ function AboutMe() {
                     </p>
                     <br></br>
                     
+ 
+  
+  return <img src={reactLogo} alt="react logo" />
+
                 </div>
 
             </div>
