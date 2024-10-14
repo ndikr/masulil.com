@@ -1,12 +1,12 @@
 [
   {
-    "id": "motiva",
-    "title": "Motiva",
-    "subheading": "Be inspired every day with new quotes.",
+    "id": "googleads",
+    "title": "Google Ads",
+    "subheading": "Tempatkan website bisnis Anda di halaman #1 pencarian Google",
     "featuredImage": "/motiva.webp",
     "client": "",
     "services": "",
-    "technologies": ["typescript", "vue", "nuxt", "tailwindcss"],
+    "technologies": ["googleads"],
     "website": "https://motiva.jacoblind.me/",
     "github": "https://github.com/lindjacob/motiva",
     "about": "This was a project I was asked to do as part of an interview process. The criteria was to create a simple quote generator that displays quotes from an API with the following criterias: <br/><br/> <ol><li>Display a random inspirational quote every minute.</li><li>Enable users to save their favorite quotes to local storage for easy access later.</li><li>Use Nuxt with Vue3 with the Composition API and Vuetify for UI components.</li></ol>",
