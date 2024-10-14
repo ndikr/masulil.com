@@ -44,9 +44,7 @@ function AboutMe() {
                     <br></br>
                     
                 </div>
-                <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
-                <img src="laptop-clouds-copy-1.png" alt="Snow" style="width:100%">
-                </div>
+
             </div>
         </Section>
     )
