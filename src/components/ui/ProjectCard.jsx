@@ -12,7 +12,7 @@ export default function projectCard({ projectObject }) {
             </div>
             <div className='p-8 lg:p-10'>
                 <div className='flex gap-4 self-end'>
-                    {projectObject.technologies.map((tech) => (
+                    {projectObject.platform.map((tech) => (
                         <IconBox icon={tech} />
                     ))}
                 </div>

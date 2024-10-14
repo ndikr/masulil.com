@@ -40,9 +40,9 @@ const ProjectPage = () => {
             <ProjectInfo content='services' project={project}>
               <p className='opacity-100 font-semibold text-xl md:text-2xl'>{project.services}</p>
             </ProjectInfo>
-            <ProjectInfo content='technologies' project={project}>
+            <ProjectInfo content='platform' project={project}>
               <div className='flex flex-wrap gap-2 mt-1'>
-                {project.technologies.map(tech => (
+                {project.platform.map(tech => (
                   <IconBox icon={tech} />
                 ))}
               </div>
