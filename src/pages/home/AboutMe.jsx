@@ -1,6 +1,7 @@
 import React from 'react';
 import Section from '../../components/layout/Section';
 import SectionTitle from '../../components/ui/SectionTitle';
+import SectionTitle from '../../components/ui/CtaButtons1';
 import ArrowLink from '../../components/ui/ArrowLink';
 import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
 import { HiCommandLine } from 'react-icons/hi2';
@@ -37,15 +38,15 @@ function AboutMe() {
                     <br></br>
                     <p><h4>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</h4>
                     </p>
-                    
-                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
-                </div>
-                <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
+                    <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
                     <img src={`/profilePhoto.jpeg`} className='size-20 object-cover rounded-xl mb-4' />
                     <h3>Mulai Ujicoba Gratis</h3>
                     <p>Dapatkan Settingan dan Otimasi Google Ads Gratis Selama 1 Minggu</p>
                     <CtaButtons />
                 </div>
+                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
+                </div>
+                
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
                         <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-94 h-94 xsm:w-100 xsm:h-100 sm:h-120 sm:w-120'>
