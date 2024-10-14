@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { PiDownloadSimple, PiEnvelopeSimple, PiCheck } from "react-icons/pi";
-import fetchPDF from '../../../api/cvtopdf';
+
 
 export default function ArrowLink1() {
     const [isDownloading, setIsDownloading] = useState(false);
