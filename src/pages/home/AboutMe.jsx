@@ -34,9 +34,6 @@ function AboutMe() {
                     <p>
                     Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
                     </p>
-                    <br></br>
-                    <p><h4>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</h4>
-                    </p>
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
@@ -48,7 +45,7 @@ function AboutMe() {
                 </div>
                 <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
                     <h3>Mulai Ujicoba Gratis</h3>
-                    <p>Dapatkan Settingan dan Otimasi Google Ads Gratis Selama 1 Minggu</p>
+                    <h4>Dapatkan Settingan dan Otimasi Google Ads Gratis Selama 1 Minggu</h4>
                     <ArrowLink1 />
                 </div>
             </div>
