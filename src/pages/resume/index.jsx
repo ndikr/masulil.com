@@ -38,10 +38,9 @@ export default function index() {
                     </div>
                     <WorkedWith />
                     <WorkExperience data={resumeData} />
-                    <Education />
-                    {/* <Certifications /> */}
+
                     <Skills />
-                    <Languages />
+                    
                     {/* <Awards /> */}
                     {/* <Recommendations /> */}
                 </div>
