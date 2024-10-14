@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from '../../components/layout/Section';
 import SectionTitle from '../../components/ui/SectionTitle';
-import ArrowLink from '../../components/ui/ArrowLink';
+import ArrowLink from '../../components/ui/ArrowLink1';
 import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
 import { HiCommandLine } from 'react-icons/hi2';
 import { TbSql } from 'react-icons/tb';
