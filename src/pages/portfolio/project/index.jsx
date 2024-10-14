@@ -51,7 +51,7 @@ const ProjectPage = () => {
               <ArrowLink link={project.github} anchorText='Repository' blankLinkTarget={true} size={'lg'} />
             </ProjectInfo>
             <ProjectInfo content='website' project={project}>
-              <ArrowLink link={project.website} anchorText='Live preview' blankLinkTarget={true} size={'xl'} />
+              <ArrowLink link={project.website} anchorText='Whatsapp' blankLinkTarget={true} size={'xl'} />
             </ProjectInfo>
           </div>
           <div id='projectDescription'>

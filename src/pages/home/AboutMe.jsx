@@ -37,7 +37,7 @@ function AboutMe() {
                     <p><h4>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</h4>
                     </p>
                     
-                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
+                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
