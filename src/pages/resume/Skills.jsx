@@ -10,7 +10,7 @@ export default function Skills() {
             <SectionHeader
                 IconComponent={PiDiamondsFour}
                 title={'Professional Skills & Tools'}
-                description={'Key competencies essential for navigating and excelling in various professional contexts.'}
+                description={'Kompetensi utama yang saya kuasai untuk menavigasi dan unggul dalam internet marketing.'}
             />
             <div className='flex flex-col gap-6'>
                 <SkillGroup title={'Programming languages'}>
