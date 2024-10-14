@@ -1,0 +1,97 @@
+import React from 'react';
+import Section from '../../components/layout/Section';
+import SectionTitle from '../../components/ui/SectionTitle';
+import ArrowLink from '../../components/ui/ArrowLink';
+import { BiLogoTypescript, BiLogoGraphql } from 'react-icons/bi';
+import { HiCommandLine } from 'react-icons/hi2';
+import { TbSql } from 'react-icons/tb';
+import { RiJavascriptFill } from 'react-icons/ri';
+import { FaGitAlt, FaReact, FaPython, FaDocker, FaJava, FaHtml5, FaFacebook, FaCss3Alt, FaWordpress, FaServer, FaCloudflare, FaGithub } from 'react-icons/fa';
+import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs, SiGoogleads, SiNetlify, SiVisualstudio } from 'react-icons/si';
+import useInViewTransition from '../../hooks/useInViewTransition';
+
+function AboutMe() {
+    const { ref: ref1, transitionClasses: transitionClasses1 } = useInViewTransition();
+    const { ref: ref2, transitionClasses: transitionClasses2 } = useInViewTransition({
+        delay: 'delay-300'
+    });
+
+    return (
+        <Section id='about-me' className={`relative z-20`}>
+            <div className='flex flex-col gap-12 lg:flex-row items-center'>
+            <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
+                    <h2>Keuntungan beriklan di Google Ads bersama Mas Ulil</h2>
+                    <p>
+                    <h4>Gratis Konsultasi</h4>
+                    Mas Ulil memberikan konsultasi gratis bagi anda untuk memperoleh settingan terbaik untuk iklan Google Ads anda.
+                    </p> 
+                    <br></br>
+                    <p>
+                    <h4>Akses Dasboard Google Ads</h4>
+                    Anda akan mendapankan akses langsung ke Dasboard Googole Ads untuk memantau performa kampanye secara realtime.
+                    </p>
+                    <br></br>
+                    <p>
+                    <h4>Riset Kata Kunci dan Kompetitor</h4>
+                    Kami menggunakan berbagai strategi untuk mendapatkan buying keyword tertarget hingga menggiring brand kompetitor untuk dijadikan target khusus.
+                    </p>
+                    <br></br>
+                    <p>
+                    <h4>Advanced Bidding Strategy</h4>
+                    Biaya “pembelian data” iklan lebih terjangkau dengan tahapan strategi bidding yang tepat.
+                    </p>
+                    <br></br>
+                    
+                </div>
+
+                <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
+                    <SectionTitle title='Tentang Mas Ulil' />
+                    <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
+                    <p>
+                    Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia Jasa SEO, Google Ads, Pembuatan Web asal kota Kudus dan telah berhasil membantu ratusan UMKM.
+                    </p>
+                    <br></br>
+                    <p>
+                    Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
+                    </p>
+                    <br></br>
+                    <p>
+                    Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
+                    </p>
+                    <br></br>
+                    <p><h4>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</h4>
+                    </p>
+                    
+                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
+                </div>
+                <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
+                    <div>
+                        <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-64 h-64 xsm:w-80 xsm:h-80 sm:h-96 sm:w-96'>
+                            <SiGoogleads className='absolute                   -top-1                       size-12    xsm:-top-[6px]                      xsm:size-16     sm:-top-2                           sm:size-20' />
+                            <FaServer className='absolute                            top-7 right-9               size-10     xsm:top-9 xsm:right-10              xsm:size-14     sm:top-10 sm:right-14               sm:size-16 ' />
+                            <FaFacebook className='absolute                        top-7 left-9                size-10     xsm:top-9 xsm:left-10               xsm:size-14     sm:top-10 sm:left-14                sm:size-16' />
+                            <RiJavascriptFill className='absolute                      top-16                      size-12     xsm:top-[5rem]                      xsm:size-14     sm:top-24                           sm:size-16' />
+                            <TbSql className='absolute                              top-[5.2rem] right-12       size-12     xsm:top-[6.5rem] xsm:right-16       xsm:size-16     sm:top-[7.4rem] sm:right-[4.4rem]   sm:size-20' />
+                            <FaWordpress className='absolute                   top-[5.5rem] left-12        size-10     xsm:top-[6.8rem] xsm:left-16        xsm:size-14     sm:top-[7.9rem]                     sm:size-16' />
+                            <FaPython className='absolute                           right-0                     size-8                                          xsm:size-10                                         sm:size-12' />
+                            <FaGitAlt className='absolute                           left-0                      size-8                                          xsm:size-10                                         sm:size-12' />
+                            <FaHtml5 className='absolute                            bottom-20 left-20           size-8      xsm:bottom-24 xsm:left-24           xsm:size-10     sm:bottom-28 sm:left-28             sm:size-12' />
+                            <FaCss3Alt className='absolute                          bottom-20 right-20          size-8      xsm:bottom-24 xsm:right-24          xsm:size-10     sm:bottom-28 sm:right-28            sm:size-12' />
+                            <FaCloudflare className='absolute                      bottom-16 right-4           size-8      xsm:bottom-20 xsm:right-6           xsm:size-10                                         sm:size-12' />
+                            <HiCommandLine className='absolute                      bottom-16 left-4            size-8      xsm:bottom-20 xsm:left-6            xsm:size-10                                         sm:size-12' />
+                            <FaGithub className='absolute                           bottom-12                   size-6      xsm:bottom-14                       xsm:size-8      sm:bottom-16                        sm:size-10' />
+                            <SiGooglecloud className='absolute                      bottom-4 right-2/3          size-6      xsm:bottom-6                        xsm:size-8                                          sm:size-10' />
+                            <SiVisualstudio className='absolute                           bottom-4 left-2/3           size-6      xsm:bottom-6                        xsm:size-8                                          sm:size-10' />
+                            <SiNetlify className='absolute                             bottom-0                    size-6                                          xsm:size-8                                          sm:size-10' />
+                        </div>
+                        <p className='mt-4 text-center'>Beberapa tools yang saya kuasai</p>
+                    </div>
+                </div>
+            </div>
+        </Section>
+    )
+
+    
+}
+
+export default AboutMe

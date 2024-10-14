@@ -2,6 +2,7 @@ import Page from '../../components/layout/Page';
 import Hero from './Hero';
 import PreviousPartners from './RecentClients';
 import AboutMe from './AboutMe';
+import AboutMe1 from './AboutMe1';
 import FeaturedProjects from './FeaturedProjects';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <Hero />
             <PreviousPartners />
             <AboutMe />
+            <AboutMe1 />
             <FeaturedProjects />
         </Page >
     )
