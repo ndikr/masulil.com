@@ -9,7 +9,7 @@ import { RiJavascriptFill } from 'react-icons/ri';
 import { FaGitAlt, FaReact, FaPython, FaDocker, FaJava, FaHtml5, FaFacebook, FaCss3Alt, FaWordpress, FaServer, FaCloudflare, FaGithub } from 'react-icons/fa';
 import { SiTailwindcss, SiDjango, SiGooglecloud, SiNextdotjs, SiGoogleads, SiNetlify, SiVisualstudio } from 'react-icons/si';
 import useInViewTransition from '../../hooks/useInViewTransition';
-import Laptop from '../../assets/laptop-clouds-copy-1.png';
+import Googleads from '../../assets/googleads.webp';
 
 function AboutMe() {
     const { ref: ref1, transitionClasses: transitionClasses1 } = useInViewTransition();
@@ -46,7 +46,7 @@ function AboutMe() {
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
                         <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-94 h-94 xsm:w-100 xsm:h-100 sm:h-120 sm:w-120'>
-                        <img src={Laptop} alt="logo" />
+                        <img src={Googleads} alt="logo" />
                         </div>
                         <p className='mt-4 text-center'>Preview tampilan iklan Google Ads</p>
                     </div>
