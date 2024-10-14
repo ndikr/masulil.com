@@ -45,10 +45,10 @@ function AboutMe() {
                 </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
-                        <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-94 h-94 xsm:w-80 xsm:h-80 sm:h-96 sm:w-96'>
+                        <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-94 h-94 xsm:w-100 xsm:h-100 sm:h-120 sm:w-120'>
                         <img src={Laptop} alt="logo" />
                         </div>
-                        <p className='mt-4 text-center'>Beberapa tools yang saya kuasai</p>
+                        <p className='mt-4 text-center'>Preview tampilan iklan Google Ads</p>
                     </div>
                 </div>
             </div>
