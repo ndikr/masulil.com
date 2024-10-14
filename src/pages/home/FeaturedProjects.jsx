@@ -19,7 +19,7 @@ export default function FeaturedProjects() {
                 <div className='flex flex-col lg:w-2/3'>
                     <SectionTitle title='My Portfolio' />
                     <h2>
-                        Jenis produk dan layanan yang tersedia
+                        Jenis Produk dan Layanan yang Tersedia
                     </h2>
                 </div>
                 <div className='flex lg:w-1/3 lg:flex-row-reverse'>
