@@ -43,6 +43,7 @@ export default function IconBox({ icon }) {
     css: FaCss3Alt,
     solidity: SiSolidity,
     vue: FaVuejs,
+    googleads: SiGoogleads,
     nuxt: SiNuxtdotjs,
   };
 
