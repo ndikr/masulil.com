@@ -42,10 +42,7 @@ function AboutMe() {
                     Biaya “pembelian data” iklan lebih terjangkau dengan tahapan strategi bidding yang tepat.
                     </p>
                     <br></br>
-                    
- 
-  
-  return <img src={reactLogo} alt="react logo" />
+                
 
                 </div>
 
