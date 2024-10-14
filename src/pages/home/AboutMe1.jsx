@@ -42,16 +42,9 @@ function AboutMe() {
                     Biaya “pembelian data” iklan lebih terjangkau dengan tahapan strategi bidding yang tepat.
                     </p>
                     <br></br>
-                    <div class="container">
-      <div class="image">
-        <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg"></img>
-      </div>
-      <div class="text">
-        <h1>Paris is one of the most magnificient cities in France.</h1>
-      </div>
-      </div>
-
+                    
                 </div>
+
             </div>
         </Section>
     )
