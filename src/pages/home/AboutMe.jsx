@@ -41,12 +41,6 @@ function AboutMe() {
                     
                     <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>
-                <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
-                    <img src={`/profilePhoto.jpeg`} className='size-20 object-cover rounded-xl mb-4' />
-                    <h3>Mulai Ujicoba Gratis</h3>
-                    <p>Dapatkan Settingan dan Otimasi Google Ads Gratis Selama 1 Minggu</p>
-                    <CtaButtons />
-                </div>
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
                         <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-94 h-94 xsm:w-100 xsm:h-100 sm:h-120 sm:w-120'>
@@ -61,5 +55,10 @@ function AboutMe() {
 
     
 }
-
+<div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
+<img src={`/profilePhoto.jpeg`} className='size-20 object-cover rounded-xl mb-4' />
+<h3>Mulai Ujicoba Gratis</h3>
+<p>Dapatkan Settingan dan Otimasi Google Ads Gratis Selama 1 Minggu</p>
+<CtaButtons />
+</div>
 export default AboutMe
