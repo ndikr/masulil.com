@@ -6,15 +6,15 @@ import ScrollButton from '../../components/ui/ScrollButton';
 const Hero = () => {
     const { ref: ref1, transitionClasses: transitionClasses1 } = useInViewTransition();
     const { ref: ref2, transitionClasses: transitionClasses2 } = useInViewTransition({
-        delay: 'delay-300'
+        delay: 'delay-100'
     });
     const { ref: ref3, transitionClasses: transitionClasses3 } = useInViewTransition({
         threshold: 0,
-        delay: 'delay-700',
+        delay: 'delay-300',
         offViewClasses: 'opacity-1 translate-y-full'
     });
     const { ref: ref4, transitionClasses: transitionClasses4 } = useInViewTransition({
-        delay: 'delay-1000',
+        delay: 'delay-600',
         offViewClasses: 'opacity-0 scale-75',
         inViewClasses: 'opacity-1 scale-100'
     });

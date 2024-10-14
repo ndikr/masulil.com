@@ -8,7 +8,7 @@ export default function index() {
     const { ref: ref1, transitionClasses: transitionClasses1 } = useInViewTransition();
     const { ref: ref2, transitionClasses: transitionClasses2 } = useInViewTransition({
         threshold: 0,
-        delay: 'delay-300'
+        delay: 'delay-100'
     });
 
     return (
