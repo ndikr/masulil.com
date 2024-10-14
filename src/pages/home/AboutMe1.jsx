@@ -48,7 +48,6 @@ function AboutMe() {
                         <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-94 h-94 xsm:w-100 xsm:h-100 sm:h-120 sm:w-120'>
                         <img src={Googleads} alt="logo" />
                         </div>
-                        <p className='mt-4 text-center'>Preview tampilan iklan Google Ads</p>
                     </div>
                 </div>
             </div>
