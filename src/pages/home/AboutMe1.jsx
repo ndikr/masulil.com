@@ -46,7 +46,7 @@ function AboutMe() {
                 <div ref={ref2} className={`flex flex-col items-center lg:items-end lg:w-1/2 ${transitionClasses2}`}>
                     <div>
                         <div className='flex justify-center items-center rounded-full bg-gray-800 relative mx-auto w-64 h-64 xsm:w-80 xsm:h-80 sm:h-96 sm:w-96'>
-                        <img src="https://reactjs.org/logo-og.png" alt="React Image" />
+                        <img src={Laptop} alt="logo" />
                         </div>
                         <p className='mt-4 text-center'>Beberapa tools yang saya kuasai</p>
                     </div>
