@@ -13,7 +13,7 @@ import useInViewTransition from '../../hooks/useInViewTransition';
 function AboutMe() {
     const { ref: ref1, transitionClasses: transitionClasses1 } = useInViewTransition();
     const { ref: ref2, transitionClasses: transitionClasses2 } = useInViewTransition({
-        delay: 'delay-300'
+        delay: 'delay-100'
     });
 
     return (
