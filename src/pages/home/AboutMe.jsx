@@ -19,6 +19,27 @@ function AboutMe() {
     return (
         <Section id='about-me' className={`relative z-20`}>
             <div className='flex flex-col gap-12 lg:flex-row items-center'>
+            <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
+                    <SectionTitle title='Tentang Mas Ulil' />
+                    <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
+                    <p>
+                    Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia Jasa SEO, Google Ads, Pembuatan Web asal kota Kudus dan telah berhasil membantu ratusan UMKM.
+                    </p>
+                    <br></br>
+                    <p>
+                    Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
+                    </p>
+                    <br></br>
+                    <p>
+                    Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
+                    </p>
+                    <br></br>
+                    <p><h4>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</h4>
+                    </p>
+                    
+                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
+                </div>
+                
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
                     <SectionTitle title='Tentang Mas Ulil' />
                     <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
@@ -61,27 +82,6 @@ function AboutMe() {
                         </div>
                         <p className='mt-4 text-center'>Beberapa tools yang saya kuasai</p>
                     </div>
-                </div>
-                <div className='flex flex-col gap-12 lg:flex-row items-center'>
-                <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
-                    <SectionTitle title='Tentang Mas Ulil' />
-                    <h2>Berpengalaman dalam Google Ads dan Google Search</h2>
-                    <p>
-                    Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia Jasa SEO, Google Ads, Pembuatan Web asal kota Kudus dan telah berhasil membantu ratusan UMKM.
-                    </p>
-                    <br></br>
-                    <p>
-                    Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google.
-                    </p>
-                    <br></br>
-                    <p>
-                    Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
-                    </p>
-                    <br></br>
-                    <p><h4>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</h4>
-                    </p>
-                    
-                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>
             </div>
         </Section>
