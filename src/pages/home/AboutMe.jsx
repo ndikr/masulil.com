@@ -27,18 +27,21 @@ function AboutMe() {
                     </p> 
                     <br></br>
                     <p>
+                    <h4>Akses Dasboard Google Ads</h4>
+                    Anda akan mendapankan akses langsung ke Dasboard Googole Ads untuk memantau performa kampanye secara realtime.
+                    </p>
+                    <br></br>
+                    <p>
                     <h4>Riset Kata Kunci dan Kompetitor</h4>
                     Kami menggunakan berbagai strategi untuk mendapatkan buying keyword tertarget hingga menggiring brand kompetitor untuk dijadikan target khusus.
                     </p>
                     <br></br>
                     <p>
-                    Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.
+                    <h4>Advanced Bidding Strategy</h4>
+                    Biaya “pembelian data” iklan lebih terjangkau dengan tahapan strategi bidding yang tepat.
                     </p>
                     <br></br>
-                    <p><h4>Dapatkan Jasa Setting dan Optimasi Google Ads hanya Rp100.000 /minggu</h4>
-                    </p>
                     
-                    <ArrowLink link='https://api.whatsapp.com/send?phone=62895373847616' anchorText='+62 8953-7384-7616' size='xl' className='mt-8' />
                 </div>
 
                 <div ref={ref1} className={`flex flex-col lg:w-1/2 ${transitionClasses1}`}>
