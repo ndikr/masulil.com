@@ -14,8 +14,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/resume/download' element={<Download />} />
-        <Route path='/portfolio' element={<Portfolio />} />
-        <Route path='/portfolio/:projectId' element={<Project />} />
+        <Route path='/layanan' element={<Portfolio />} />
+        <Route path='/layanan/:projectId' element={<Project />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
