@@ -8,7 +8,7 @@
     "services": "",
     "platform": ["googleads"],
     "kontak": "https://api.whatsapp.com/send?phone=62895373847616&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?",
-    "about": "This was a project I was asked to do as part of an interview process. The criteria was to create a simple quote generator that displays quotes from an API with the following criterias: <br/><br/> <ol><li>Display a random inspirational quote every minute.</li><li>Enable users to save their favorite quotes to local storage for easy access later.</li><li>Use Nuxt with Vue3 with the Composition API and Vuetify for UI components.</li></ol>",
+    "about": "Jasa pasang iklan Google Ads termurah, buat bisnismu berada di halaman #1 pencarian Google. Solusi meningkatkan penjualan bisnismu dengan instan dan optimal. Terima beres biar kami yang mensetting iklan anda!. The criteria was to create a simple quote generator that displays quotes from an API with the following criterias: <br/><br/> <ol><li>Display a random inspirational quote every minute.</li><li>Enable users to save their favorite quotes to local storage for easy access later.</li><li>Use Nuxt with Vue3 with the Composition API and Vuetify for UI components.</li></ol>",
     "goal": "",
     "result": "",
     "future": "",
