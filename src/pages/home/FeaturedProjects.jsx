@@ -17,14 +17,14 @@ export default function FeaturedProjects() {
         <Section>
             <div ref={ref1} className={`flex flex-col justify-between mb-10 lg:flex-row ${transitionClasses1}`}>
                 <div className='flex flex-col lg:w-2/3'>
-                    <SectionTitle title='My Portfolio' />
+                    <SectionTitle title='Layanan' />
                     <h2>
                         Jenis Produk dan Layanan yang Tersedia
                     </h2>
                 </div>
                 <div className='flex lg:w-1/3 lg:flex-row-reverse'>
                     <div className='mt-5 w-fit self-end lg:mb-8'>
-                        <ArrowLink link='/portfolio' anchorText='Browse all Services' size='xl' weight='semibold' />
+                        <ArrowLink link='/layanan' anchorText='Browse all Services' size='xl' weight='semibold' />
                     </div>
                 </div>
             </div>
