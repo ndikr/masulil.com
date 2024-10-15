@@ -8,10 +8,7 @@
     "services": "",
     "platform": ["googleads"],
     "kontak": "https://api.whatsapp.com/send?phone=62895373847616&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?",
-    "about": "Jasa pasang iklan Google Ads termurah, buat bisnismu berada di halaman #1 pencarian Google. Solusi meningkatkan penjualan bisnismu dengan instan dan optimal. Terima beres biar kami yang mensetting iklan Anda!.
-<br></br>
-Iklan Anda bergaransi tampil pada halaman hasil pencarian Google, baik untuk laptop, tablet, PC maupun smartphone.
-",
+    "about": "This project was inspired by my own need to better predict my future financial situation and after many attempts to teach my girlfriend how I think about money, I decided to pivot the project to be more educational. My approach is a visual and interactive type of app, where the user adjusts a colorful bar that represents your monthly income. Below are two graphs representing real time calculations of these two accounts future outlook. When the user adjusts the income allocation, a new graph is created which diverges from the old to show the consequences of the changes.",
     "goal": "",
     "result": "",
     "future": "",
