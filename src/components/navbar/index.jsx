@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.ico';
 import LinkList from './LinkList';
 import Container from '../layout/Container';
 import { GiHamburgerMenu } from 'react-icons/gi';
