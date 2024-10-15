@@ -8,7 +8,7 @@
     "services": "",
     "platform": ["googleads"],
     "kontak": "https://api.whatsapp.com/send?phone=62895373847616&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?",
-    "about": "<li>dsfsdf</li><li>dsf</li><li>sdf</li><li></li>",
+    "about": "<ol><li>dsfsdf</li><li>dsf</li><li>sdf</li><li></li></ol>",
     "goal": "",
     "result": "",
     "future": "",
