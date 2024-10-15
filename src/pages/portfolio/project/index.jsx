@@ -55,7 +55,7 @@ const ProjectPage = () => {
             </ProjectInfo>
           </div>
           <div id='projectDescription'>
-            <ProjectDescription title='About the project' content='about' project={project} />
+            <ProjectDescription title='Tentang Layanan' content='about' project={project} />
             <ProjectDescription title='Project goal' content='goal' project={project} />
             <ProjectDescription title='Project result' content='result' project={project} />
             <ProjectDescription title='Future ideas' content='future' project={project} />
