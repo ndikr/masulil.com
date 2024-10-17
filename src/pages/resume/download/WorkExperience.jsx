@@ -11,7 +11,7 @@ export default function WorkExperience({ data }) {
                 title={'Tentang Layanan'}
             />
             <div className='flex'>
-                <div className='w-[2px] bg-[#ededee] mt-3 mb-1 ml-1' />
+                <div className='w-[10px] bg-[#ededee] mt-3 mb-1 ml-1' />
                 <div className='flex flex-col gap-5 w-full'>
                     {data.workExperience.map((experience, index) => (
                         <Experience key={index} {...experience} />
