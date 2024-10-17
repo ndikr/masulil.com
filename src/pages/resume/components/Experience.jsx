@@ -12,9 +12,8 @@ export default function Experience({ position, company, type, location, dateFrom
                 <div className='flex flex-col md:flex-row md:justify-between'>
                     <div className='mb-4 md:mb-0'>
                         <h3>{position}</h3>
-                        <DotLine text1={`${company}`} text2={`${type}`} />
+                        <DotLine text1={`${company}`} />
                     </div>
-                    <DateBox dateFromTo={dateFromTo} />
                 </div>
                 <Location locationText={location} />
                 <p className='w-full' dangerouslySetInnerHTML={{ __html: description }} />
