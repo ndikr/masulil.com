@@ -9,11 +9,11 @@
         {
             "position": "Alasan Beriklan Bersama Mas Ulil",
             "company": "Fokus pada Hasil",
-            "description": "<b>Tidak hanya meningkatkan traffic</b> dan impression ke web, Mas Ulil mengutamakan optimalisasi conversi."
+            "description": "Tidak hanya meningkatkan traffic dan impression ke web, Mas Ulil mengutamakan optimalisasi conversi."
         },
         {
             "company": "Biaya Transparan",
-            "description": "Anda dapat mengakses Dashboard Google Ads untuk melihat langsung biaya dan performa iklan Anda.</br>Anda dapat mengakses Dashboard Google Ads untuk melihat langsung biaya dan performa iklan Anda."
+            "description": "Anda dapat mengakses Dashboard Google Ads untuk melihat langsung biaya dan performa iklan Anda."
         },
         {
             "company": "Berpengalaman",
@@ -28,12 +28,29 @@
             "description": "Gratis biaya setting dan optimasi iklan satu minggu pertama."
         },
         {
-            "position": "Founder & Business Owner",
-            "company": "Jacob Lind Online Marketing",
-            "type": "Full Time",
-            "location": "Aarhus, Denmark",
-            "dateFromTo": "Nov 2015 - Jan 2019",
-            "description": "I founded and led a marketing consultancy, directing a team and managing a diverse array of projects, from SEO strategies to the development of automated marketing funnels and front-end design. My focus was on driving profitability and crafting customized solutions across various marketing disciplines. <br/> The venture began during my medical studies and evolved into a full-time enterprise, prompting me to relocate my office to Bangkok and expand the team by hiring two employees. As the business matured, my role increasingly shifted towards technical responsibilities, including implementing marketing automation systems and optimizing conversion rates for landing pages using WordPress and React."
+            "position": "Pertanyaan yang Sering Ditanyakan",
+            "company": "Berapa biaya setting dan optimasi iklan?",
+            "description": "Hanya Rp100.000 /minggu."
+        },
+        {
+            "company": "Rp100.000 apakah sudah termasuk saldo iklan?",
+            "description": "Belum termasuk saldo iklan, saldo iklan bisa Anda isi sendiri langsung ke akunnya."
+        },
+        {
+            "company": "Iklan apakah bisa di posisi teratas Pencarian Google?",
+            "description": "Iya iklan akan tampil pada halaman 1 Google."
+        },
+        {
+            "company": "Akun iklannya apakah bisa di akses?",
+            "description": "Iya bisa di akses sercara realtime. kami akan undang akses akun Dashboard iklan menggunakan email Anda."
+        },
+        {
+            "company": "Apakah kata kunci bisa disesuai dengan permintaan?",
+            "description": "Iya sangat bisa. Kami akan riset terlebih dahulu mana saja kata kunci yang relevan untuk bisnis Anda dan memiliki pencarian terbanyak."
+        },
+        {
+            "company": "Bagaimana kalau belum punya website?",
+            "description": "Kami menyediakan paket hemat website + jasa setting iklan dengan harga yang sangat terjangkau."
         }
     ]
 }
