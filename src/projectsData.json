@@ -18,7 +18,7 @@
     "id": "website",
     "title": "Website",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/imagemint.webp",
+    "featuredImage": "/download.png",
     "client": "",
     "services": "",
     "platform": ["typescript", "nextjs", "solidity", "tailwindcss"],
