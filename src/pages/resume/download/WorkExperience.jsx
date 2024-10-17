@@ -8,7 +8,7 @@ export default function WorkExperience({ data }) {
         <Container>
             <Header
                 IconComponent={PiSuitcaseSimple}
-                title={'Work Experience'}
+                title={'Tentang Layanan'}
             />
             <div className='flex'>
                 <div className='w-[2px] bg-[#ededee] mt-3 mb-1 ml-1' />
