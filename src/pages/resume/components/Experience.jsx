@@ -17,6 +17,7 @@ export default function Experience({ position, company, type, location, dateFrom
                     <DateBox dateFromTo={dateFromTo} />
                 </div>
                 <Location locationText={location} />
+                <p className='w-full' dangerouslySetInnerHTML={{ __html: description }} />
             </div>
         </div>
     )
