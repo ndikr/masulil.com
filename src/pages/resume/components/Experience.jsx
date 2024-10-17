@@ -15,7 +15,6 @@ export default function Experience({ position, company, type, location, dateFrom
                         <DotLine text1={`${company}`} />
                     </div>
                 </div>
-                <Location locationText={location} />
                 <p className='w-full' dangerouslySetInnerHTML={{ __html: description }} />
             </div>
         </div>
