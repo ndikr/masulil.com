@@ -2,18 +2,14 @@
     "tagline": "Jasa Setting dan Optimasi Google Ads",
     "profile": {
         "professional": "Saya memulai tertarik pada mesin percari Google sejak tahun 2016 dan pada 2019 saya bekerja sama dengan penyedia Jasa SEO, Google Ads, Pembuatan Web asal kota Kudus dan telah berhasil membantu ratusan UMKM. Pengalaman saya membuat saya Insyaallah memenuhi syarat secara unik untuk inovasi dan pengembangan pemasaran digital melalui Google. Tujuan saya adalah selalu menciptakan solusi yang tidak hanya memenuhi tetapi juga melampaui harapan setiap klien saya.",
-        "personal": "I am an eternal optimist, always seeing the best in people and the world around me. Social and competitive, I thrive on engaging in sports, board games, and continuously learning new things. With dreams of living in various countries, I'm eager to explore and experience all that different cultures have to offer."
+        "personal": ""
     },
     "location": "Demak, Jawa Tengah",
     "workExperience": [
         {
-            "tagline": "Alasan Beriklan Bersama Mas Ulil",
-            "position": "Solutions Architect & Developer",
-            "company": "DEKRA",
-            "type": "Full Time",
-            "location": "Remote - Copenhagen, Denmark",
-            "dateFromTo": "Jun 2022 - Present",
-            "description": "I was re-hired to engineer a comprehensive data warehouse, integrating data from various online channels and internal systems, some of which I had previously developed. This initiative aimed to bolster decision-making and promote a data-driven culture within the company. My process began with in-depth interviews with department directors and managers to identify the most critical KPIs and metrics for insightful analysis. <br /> I successfully designed and implemented a data warehouse in Google BigQuery, orchestrated through a suite of microservices running on Google Cloud Platform (GCP). The backbone of the system was constructed using Node.js and Express.js, ensuring robust and scalable backend operations."
+            "position": "Alasan Beriklan Bersama Mas Ulil",
+            "company": "Fokus pada Hasil",
+            "description": "Tidak hanya meningkatkan traffic dan impression ke web, Mas Ulil mengutamakan optimalisasi conversi."
         },
         {
             "position": "Backend Developer",
