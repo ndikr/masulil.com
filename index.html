@@ -33,6 +33,24 @@
 
   gtag('config', 'AW-16745358551');
 </script>
+
+<!-- Event snippet for Klik ke Wa conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-16745358551/aUvoCL2l894ZENfJ57A-',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
 <a href="https://api.whatsapp.com/send?phone=62882005295050&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?" style="
 position: fixed;
 width: 50px;
