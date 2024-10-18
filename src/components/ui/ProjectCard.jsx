@@ -4,8 +4,11 @@ import IconBox from './IconBox';
 
 export default function projectCard({ projectObject }) {
     return (
-        <a to={{ pathname:`https://${projectObject.id}`}}
-            className={`h-full group/parent flex flex-col bg-gray-800 rounded-3xl overflow-clip`}
+        <a 
+            href={`https://${projectObject.id}`}
+            className="h-full group/parent flex flex-col bg-gray-800 rounded-3xl overflow-clip"
+            target="_blank"  // Membuka tautan di tab baru
+            rel="noopener noreferrer"  // Menambah keamanan untuk tautan eksternal
         >
             <div className='overflow-clip'>
                 <img src={projectObject.featuredImage} className='group-hover/parent:scale-110 transition-all duration-300 object-cover w-full h-full' />
