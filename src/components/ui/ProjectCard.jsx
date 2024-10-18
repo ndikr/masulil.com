@@ -4,7 +4,7 @@ import IconBox from './IconBox';
 
 export default function projectCard({ projectObject }) {
     return (
-        <a href={`/layanan/${projectObject.id}`}
+        <a href={`{projectObject.id}`}
             className={`h-full group/parent flex flex-col bg-gray-800 rounded-3xl overflow-clip`}
         >
             <div className='overflow-clip'>
