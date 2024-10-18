@@ -18,7 +18,7 @@ const ProjectCardWrapper = ({ projects, moreComing }) => {
             ))}
             {moreComing &&
                 <div className='group/moreProjects min-h-[500px] w-full sm:max-w-[calc(50%-1rem)] lg:max-w-[calc(33.333%-1rem)] flex items-center justify-center rounded-3xl border-4 border-dashed border-gray-800'>
-                    <p className='text-xl'>Template lain? Kontak via Whatsapp...</p>
+                    <p className='text-xl'>Template lain? Whatsapp aja...</p>
                 </div>
             }
         </div>
