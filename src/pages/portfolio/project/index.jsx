@@ -11,7 +11,7 @@ import ScrollButton from '../../../components/ui/ScrollButton';
 
 const ProjectPage = () => {
   const [project, setProject] = useState(null);
-  const projectId = 'external-link-or-id';
+  const projectId = 'external-link';
 
   if (!project) {
     return <NotFound />;
