@@ -10,8 +10,8 @@ import ProjectDescription from './ProjectDescription';
 import ScrollButton from '../../../components/ui/ScrollButton';
 
 const ProjectPage = () => {
-  const { projectId } = useParams();
-  const project = projectsData.find(p => p.id === projectId);
+  const [project, setProject] = useState(null);
+  const projectId = 'external-link-or-id';
 
   if (!project) {
     return <NotFound />;
