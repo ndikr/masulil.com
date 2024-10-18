@@ -21,7 +21,7 @@ export default function projectCard({ projectObject }) {
                 </div>
                 <h4 className='text-2xl font-semibold mt-6 mb-2'>{projectObject.title}</h4>
                 <p className='text-lg'>{projectObject.subheading}</p>
-                <ArrowLink link={`/layanan/${projectObject.id}`} anchorText='VIEW PROJECT' color='text-white' size='md' parentGroup={true} className='mt-5' />
+                <ArrowLink anchorText='PREVIEW DEMO' color='text-white' size='md' parentGroup={true} className='mt-5' />
             </div>
         </a>
     )
