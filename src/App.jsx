@@ -16,7 +16,7 @@ function App() {
         <Route path='/resume/download' element={<Download />} />
         <Route path='/layanan' element={<Portfolio />} />
         <Route path='/layanan/:projectId' element={<Project />} />
-        <Route path='/layanan/collosal' component={() => { window.location.href = 'https://collosal.masulil.com/'; return null; }}/>
+        <Route path='/layanan/collosal' component={ Redirect } loc='https://collosal.masulil.com/' />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
