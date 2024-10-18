@@ -1,13 +1,94 @@
 [
-
+  {
+    "id": "rental.masulil.com",
+    "title": "Rental Mobil Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/rental.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "funio.masulil.com",
+    "title": "Funio Toko Furniture Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/funio.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "nike.masulil.com",
+    "title": "Nike Online Shop Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/nike.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "tesla.masulil.com",
+    "title": "Tesla Dealer Mobil Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/tesla.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "car.masulil.com",
+    "title": "Car Dealer Mobil Template Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/car.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "deler.masulil.com",
+    "title": "Dealer Mobil Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/deler.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "homeq.masulil.com",
+    "title": "Real Estate Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/homeq.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "room.masulil.com",
+    "title": "Room Simple Landing Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/room.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "sunny.masulil.com",
+    "title": "Sunny Creative Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/sunny.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "ochi.masulil.com",
+    "title": "Ochi Profesional Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/ochi.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "house.masulil.com",
+    "title": "House Simple Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/house.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "sabmedia.masulil.com",
+    "title": "SabMedia Profesional Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/sabmedia.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
   {
     "id": "collosal.masulil.com",
     "title": "Collosal Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
     "featuredImage": "/collosal.png",
-    "platform": ["typescript", "nextjs", "react", "tailwindcss"],
-    "github": "https://collosal.masulil.com/"
-
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   }
 
 ]
