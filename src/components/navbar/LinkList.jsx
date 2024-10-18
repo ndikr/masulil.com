@@ -8,7 +8,7 @@ const LinkList = () => {
     const navLinks = [
         { href: '/', label: 'Home' },
         { href: '/resume', label: 'Profil' },
-        { href: '/layanan', label: 'Layanan' },
+        { href: '/website', label: 'Jasa Website' },
         // { href: '/contact', label: 'Contact' },
     ];
 
