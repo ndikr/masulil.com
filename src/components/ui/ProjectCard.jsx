@@ -4,10 +4,8 @@ import IconBox from './IconBox';
 
 export default function projectCard({ projectObject }) {
     return (
-        <a href={isExternal ? projectObject.url : `/layanan/${projectObject.id}`}
+        <a href={isExternal ? projectObject.url : `${projectObject.id}`}
             className={`h-full group/parent flex flex-col bg-gray-800 rounded-3xl overflow-clip`}
-            target={isExternal ? "_blank" : "_self"}  // Buka tab baru jika eksternal
-            rel={isExternal ? "noopener noreferrer" : undefined} 
         >
             <div className='overflow-clip'>
                 <img src={projectObject.featuredImage} className='group-hover/parent:scale-110 transition-all duration-300 object-cover w-full h-full' />
