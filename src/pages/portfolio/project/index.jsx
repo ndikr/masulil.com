@@ -11,7 +11,7 @@ import ScrollButton from '../../../components/ui/ScrollButton';
 
 const ProjectPage = () => {
   const { projectId } = useParams();
-  const project = projectsData.find(p => p.id === href);
+  const project = projectsData.find(p => p.id === projectId);
 
   if (!project) {
     return <NotFound />;
