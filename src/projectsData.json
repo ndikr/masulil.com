@@ -3,7 +3,7 @@
     "id": "rental.masulil.com",
     "title": "Rental Mobil Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/rental.png",
+    "featuredImage": "/rental1.png",
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
@@ -38,7 +38,7 @@
     "id": "deler.masulil.com",
     "title": "Dealer Mobil Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/deler.png",
+    "featuredImage": "/deler1.png",
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
