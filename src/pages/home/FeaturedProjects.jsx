@@ -24,7 +24,7 @@ export default function FeaturedProjects() {
                 </div>
                 <div className='flex lg:w-1/3 lg:flex-row-reverse'>
                     <div className='mt-5 w-fit self-end lg:mb-8'>
-                        <ArrowLink link='/layanan' anchorText='Lihat Template Lain' size='xl' weight='semibold' />
+                        <ArrowLink link='/website' anchorText='Lihat Template Lain' size='xl' weight='semibold' />
                     </div>
                 </div>
             </div>
