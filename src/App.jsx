@@ -16,8 +16,8 @@ function App() {
         <Route path='/resume/download' element={<Download />} />
         <Route path='/layanan' element={<Portfolio />} />
         <Route path='/layanan/:projectId' element={<Project />} />
-        <Route path='*' element={<NotFound />} />
         <Route path='/layanan/collosal' component={() => { window.location.href = 'https://collosal.masulil.com/'; return null; }}/>
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )
