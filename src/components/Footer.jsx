@@ -33,7 +33,7 @@ const Footer = () => {
                             </div>
                             <div className='mt-5'>
                                 <div className='mb-1 uppercase text-gray-400 font-semibold'>Whatsapp:</div>
-                                <ArrowLink link='https://api.whatsapp.com/send?phone=62882005295050&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?' anchorText='+62 8953-7384-7616' color='text-white' size='md' />
+                                <ArrowLink link='https://api.whatsapp.com/send?phone=62882005295050&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20jasa%20Google%20Ads%20anda,%20bisa%20tolong%20dibantu?' anchorText='+62 8820-0529-5050' color='text-white' size='md' />
                             </div>
                         </div>
                     </div>
