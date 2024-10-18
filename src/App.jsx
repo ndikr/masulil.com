@@ -6,15 +6,6 @@ import Project from './pages/portfolio/project/index';
 import NotFound from './pages/NotFound';
 import Download from './pages/resume/download/index';
 
-function ExternalRedirect1() {
-  useEffect(() => {
-    // Redirect ke URL eksternal
-    window.location.href = 'https://collosal.masulil.com/';
-  }, []);
-
-  return null; // Tidak menampilkan apa pun di halaman
-}
-
 function App() {
 
   return (
@@ -25,7 +16,6 @@ function App() {
         <Route path='/resume/download' element={<Download />} />
         <Route path='/layanan' element={<Portfolio />} />
         <Route path='/layanan/:projectId' element={<Project />} />
-        <Route path='/layanan/collosal' element={<ExternalRedirect1 />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
