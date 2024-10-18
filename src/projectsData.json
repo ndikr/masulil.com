@@ -29,7 +29,7 @@
   },
   {
     "id": "car.masulil.com",
-    "title": "Car Dealer Mobil Template Template",
+    "title": "Car Dealer Profesional Template Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
     "featuredImage": "/car.png",
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
