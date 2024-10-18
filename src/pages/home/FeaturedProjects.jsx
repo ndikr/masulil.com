@@ -19,7 +19,7 @@ export default function FeaturedProjects() {
                 <div className='flex flex-col lg:w-2/3'>
                     <SectionTitle title='Jasa Pembuatan Website' />
                     <h2>
-                        Buat Website Domain .com Cuma Rp.600.000 
+                        Buat Website Domain .com Cuma Rp600.000 
                     </h2>
                 </div>
                 <div className='flex lg:w-1/3 lg:flex-row-reverse'>
