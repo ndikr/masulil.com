@@ -70,13 +70,6 @@
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
-    "id": "house.masulil.com",
-    "title": "House Simple Template",
-    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/house.png",
-    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
-  },
-  {
     "id": "sabmedia.masulil.com",
     "title": "SabMedia Profesional Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
@@ -89,6 +82,110 @@
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
     "featuredImage": "/collosal.png",
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "ridex.masulil.com",
+    "title": "Ridex Rental Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/ridex.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "foodie.masulil.com",
+    "title": "Foodie Resto Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/foodie.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "grilli.masulil.com",
+    "title": "Grilli Restaurant Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/grilli.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "travel.masulil.com",
+    "title": "Travel Tour Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/travel.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "burgers.masulil.com",
+    "title": "Burgers Simple Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/burgers.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "fast.masulil.com",
+    "title": "Fast Produk Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/fast.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "burger.masulil.com",
+    "title": "Burger Online Order Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/burger.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "plant.masulil.com",
+    "title": "Plant Store Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/plant.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "sushi.masulil.com",
+    "title": "Sushi Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "restoran.masulil.com",
+    "title": "Restoran Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/restoran.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "woodex.masulil.com",
+    "title": "Woodex Furniture Store Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/woodex.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": ".masulil.com",
+    "title": " Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "barber.masulil.com",
+    "title": "Barber Shop Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/barber.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "play.masulil.com",
+    "title": "Play Startup Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/play.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "astro.masulil.com",
+    "title": "Astro Landing Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/astro.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   }
-
 ]
