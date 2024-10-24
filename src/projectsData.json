@@ -143,7 +143,7 @@
     "id": "sushi.masulil.com",
     "title": "Sushi Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/.png",
+    "featuredImage": "/sushi.png",
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
@@ -158,13 +158,6 @@
     "title": "Woodex Furniture Store Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
     "featuredImage": "/woodex.png",
-    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
-  },
-  {
-    "id": ".masulil.com",
-    "title": " Template",
-    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/.png",
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
