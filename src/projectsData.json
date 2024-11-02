@@ -21,6 +21,13 @@
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
+    "id": "auto.masulil.com",
+    "title": "Dealer Mobil Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/auto.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
     "id": "tesla.masulil.com",
     "title": "Tesla Dealer Mobil Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
