@@ -7,20 +7,6 @@
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
-    "id": "funio.masulil.com",
-    "title": "Funio Toko Furniture Template",
-    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/funio.png",
-    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
-  },
-  {
-    "id": "nike.masulil.com",
-    "title": "Nike Online Shop Template",
-    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/nike.png",
-    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
-  },
-  {
     "id": "auto.masulil.com",
     "title": "Dealer Mobil Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
@@ -39,6 +25,27 @@
     "title": "Car Dealer Profesional Template Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
     "featuredImage": "/car.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "ridex.masulil.com",
+    "title": "Ridex Rental Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/ridex.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "funio.masulil.com",
+    "title": "Funio Toko Furniture Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/funio.png",
+    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
+  },
+  {
+    "id": "nike.masulil.com",
+    "title": "Nike Online Shop Template",
+    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
+    "featuredImage": "/nike.png",
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
@@ -81,13 +88,6 @@
     "title": "Collosal Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
     "featuredImage": "/collosal.png",
-    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
-  },
-  {
-    "id": "ridex.masulil.com",
-    "title": "Ridex Rental Template",
-    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/ridex.png",
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
