@@ -3,7 +3,6 @@ import Section from '../../components/layout/Section';
 import ProjectCardWrapper from '../../components/ui/ProjectCardWrapper';
 import useInViewTransition from '../../hooks/useInViewTransition';
 import projectsData from '../../projectsData.json';
-import Page from '../../components/layout/WhatsAppButton';
 
 export default function index() {
     const { ref: ref1, transitionClasses: transitionClasses1 } = useInViewTransition();
@@ -13,7 +12,6 @@ export default function index() {
     });
 
     return (
-        
         <Page>
             <Section>
                 <div className={`flex flex-col items-center ${transitionClasses1}`} ref={ref1}>
@@ -24,11 +22,6 @@ export default function index() {
                     <ProjectCardWrapper projects={projectsData} moreComing={true} />
                 </div>
             </Section>
-            
         </Page>
-        
-    );
-    return (
-    <WhatsAppButton />
-)
+    )
 }
