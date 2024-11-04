@@ -42,13 +42,6 @@
     "platform": ["typescript", "nextjs", "react", "tailwindcss"]
   },
   {
-    "id": "deler.masulil.com",
-    "title": "Dealer Mobil Template",
-    "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
-    "featuredImage": "/deler1.png",
-    "platform": ["typescript", "nextjs", "react", "tailwindcss"]
-  },
-  {
     "id": "homeq.masulil.com",
     "title": "Real Estate Template",
     "subheading": "Buat website perusahaan Anda dengan biaya terjangkau",
