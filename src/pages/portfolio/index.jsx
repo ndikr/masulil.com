@@ -13,6 +13,7 @@ export default function index() {
     });
 
     return (
+        
         <Page>
             <Section>
                 <div className={`flex flex-col items-center ${transitionClasses1}`} ref={ref1}>
@@ -23,7 +24,11 @@ export default function index() {
                     <ProjectCardWrapper projects={projectsData} moreComing={true} />
                 </div>
             </Section>
-            <WhatsAppButton />
+            
         </Page>
-    )
+        
+    );
+    return (
+    <WhatsAppButton />
+)
 }
