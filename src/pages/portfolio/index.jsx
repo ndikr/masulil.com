@@ -15,8 +15,8 @@ export default function index() {
         <Page>
             <Section>
                 <div className={`flex flex-col items-center ${transitionClasses1}`} ref={ref1}>
-                    <h2>Buat Website Domain .com Cuma Rp600.000 </h2>
-                    <p className='subheading text-center'>Daftar Pilihan Template yang Dapat Anda Gunakan Untuk Website<br /> Ingin Template lain? Whatsapp saja.</p>
+                    <h2>Buat Website Domain .com Cuma Rp700.000 </h2>
+                    <p className='subheading text-center'>Uptime 100%, Maintenance /Tahun 250k <br />Daftar Pilihan Template yang Dapat Anda Gunakan Untuk Website<br /> Ingin Template lain? Whatsapp saja.</p>
                 </div>
                 <div className={`mt-20 ${transitionClasses2}`} ref={ref2}>
                     <ProjectCardWrapper projects={projectsData} moreComing={true} />
