@@ -7,7 +7,7 @@ export default function ArrowLink1() {
 
     return (
         <div className='flex flex-col w-full justify-center gap-4 mt-10 xsm:flex-row'>
-            <a href='https://api.whatsapp.com/send?phone=62882005295050&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20Jasa%20Ads/Web,%20bisa%20tolong%20dibantu?' className='button'>
+            <a href='https://api.whatsapp.com/send?phone=62882005295050&text=Assalamualaikum%20mas%20Ulil,%20Saya%20berminat%20menggunakan%20Jasa%20GoogleAds,%20bisa%20tolong%20dibantu?' className='button'>
                 <PiEnvelopeSimple size='1.5rem' />
                 Whatsapp
             </a>
