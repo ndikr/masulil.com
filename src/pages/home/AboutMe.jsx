@@ -45,8 +45,8 @@ function AboutMe() {
                 </div>
             </div>
                 <div className={`flex flex-col items-center my-20 ${transitionClasses2}`} ref={ref2}>
-                    <h2>Mulai Ujicoba Gratis</h2>
-                    <h4>Dapatkan Settingan dan Optimasi Google Ads Gratis di 1 Minggu Pertama</h4>
+                    <h2>Mulai Konsultasi Gratis</h2>
+                    <h4>Konsultasikan Settingan yang Cocok untuk Iklan Google Ads Anda</h4>
                     <ArrowLink1 />
                 </div>
         
